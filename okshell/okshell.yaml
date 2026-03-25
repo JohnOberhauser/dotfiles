@@ -1,32 +1,108 @@
-frame:
-  enable_frame: true
-
+wallpaper_dir: /home/john/workspace/Varda-Theme/themes/varda/wallpaper
+clock_format_24_h: false
 weather_location_query:
   type: City
   name: Algonquin
-  country: USA
-
+  country: US
 temperature_unit: Metric
-
+icon_theme: OkPhosphor
+app_icon_theme: Tela-circle-dark
+notification_position: Right
+frame:
+  enable_frame: true
+top_bar:
+  expanded: true
+  left_widgets: []
+  center_widgets: []
+  right_widgets: []
+bottom_bar:
+  expanded: true
+  left_widgets: []
+  center_widgets: []
+  right_widgets: []
 left_bar:
   top_widgets:
-    - Menu
-    - HyprlandWorkspaces
+  - Menu
+  - HyprlandWorkspaces
   center_widgets:
-    - HyprlandDock
+  - HyprlandDock
   bottom_widgets:
-    - RecordingIndicator
-    - NotificationHistory
-    - Tray
-    - Screenshot
+  - RecordingIndicator
+  - NotificationHistory
+  - Tray
+  - Screenshot
+  - HyprPicker
+  - Clipboard
+  - Bluetooth
+  - Battery
+  - AudioOutput
+  - AudioInput
+  - Network
+  - Clock
+right_bar:
+  top_widgets: []
+  center_widgets: []
+  bottom_widgets: []
+vertical_menu_expansion_type: ExpandDown
+clock_menu:
+  position: Top
+  minimum_width: 800
+  widgets:
+  - !Container
+      orientation: Horizontal
+      minimum_width: 0
+      spacing: 12
+      widgets:
+        - Calendar
+        - !Container
+            spacing: 20
+            orientation: Vertical
+            minimum_width: 420
+            widgets:
+              - Weather
+              - MediaPlayer
+clipboard_menu:
+  position: Left
+  widgets:
+  - Clipboard
+quick_settings_menu:
+  position: Left
+  widgets:
+  - Clock
+  - Network
+  - Bluetooth
+  - AudioOutput
+  - AudioInput
+  - PowerProfiles
+  - Wallpaper
+  - MediaPlayer
+  - !Spacer
+    height: 20
+  - !QuickActions
+    widgets:
+    - AirplaneMode
+    - Nightlight
     - HyprPicker
-    - Clipboard
-    - Bluetooth
-    - Battery
-    - AudioOutput
-    - AudioInput
-    - Network
-    - Clock
-
-icon_theme: "OkPhosphor"
-app_icon_theme: "Tela-circle-dark"
+    - Settings
+  - !Spacer
+    height: 20
+  - !QuickActions
+    widgets:
+    - Logout
+    - Lock
+    - Reboot
+    - Shutdown
+notification_menu:
+  position: Left
+  widgets:
+  - Notifications
+screenshot_menu:
+  position: Bottom
+  widgets:
+  - Screenshots
+  - Divider
+  - ScreenRecording
+app_launcher_menu:
+  position: Left
+  widgets:
+  - AppLauncher
