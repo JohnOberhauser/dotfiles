@@ -10,6 +10,7 @@
 ./scripts/startServices.sh
 ./scripts/setupUfw.sh
 ./scripts/setupCursor.sh
+./scripts/setupTheme.sh
 ./scripts/setupYazi.sh
 ./scripts/setupXdgOpen.sh
 ../themes/setTheme.sh varda

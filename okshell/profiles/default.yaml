@@ -8,7 +8,7 @@ general:
 theme:
   shell_icon_theme: OkMaterial
   app_icon_theme: Tela-circle-dark
-  theme: CatppuccinMacchiato
+  theme: EverforestDarkHard
   matugen:
     preference: LessSaturation
     scheme_type: Fidelity
