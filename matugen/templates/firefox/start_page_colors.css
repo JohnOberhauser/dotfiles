@@ -1,0 +1,6 @@
+:root {
+    /** colors */
+    --color-bg: {{ colors.surface.dark.hex }};
+    --color-fg: {{ colors.on_surface.dark.hex }};
+    --color-primary: {{ colors.primary.dark.hex }};
+}

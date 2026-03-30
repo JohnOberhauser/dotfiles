@@ -1,0 +1,188 @@
+@define-color bg {{ colors.surface.dark.hex }};
+@define-color fg {{ colors.on_surface.dark.hex }};
+@define-color grey {{ colors.surface_variant.dark.hex }};
+@define-color primary {{ colors.primary.dark.hex }};
+@define-color buttonPrimary {{ colors.primary.dark.hex }};
+@define-color red #FF0000;
+@define-color green #00FF00;
+@define-color blue #0000FF;
+@define-color yellow #FFFF00;
+@define-color purple #FF00FF;
+
+@define-color grey_00 @grey;
+@define-color grey_05 @grey;
+@define-color grey_10 @grey;
+@define-color grey_15 @grey;
+@define-color grey_20 @grey;
+@define-color grey_25 @grey;
+@define-color grey_30 @grey;
+@define-color grey_35 @grey;
+@define-color grey_40 @grey;
+@define-color grey_45 @grey;
+@define-color grey_50 @grey;
+@define-color grey_55 @grey;
+@define-color grey_60 @grey;
+@define-color grey_65 @grey;
+@define-color grey_70 @grey;
+@define-color grey_75 @grey;
+@define-color grey_80 @grey;
+@define-color grey_85 @grey;
+@define-color grey_90 @grey;
+@define-color grey_95 @grey;
+@define-color grey_100 @grey;
+
+/* General */
+@define-color selected_bg_color @bg;       /* legacy stuff */
+@define-color border_color @bg;            /* border, when used */
+@define-color bg_color @bg;                /* general background */
+@define-color fg_color @fg;                /* general text */
+@define-color base_color @fg;             /* legacy stuff */
+@define-color text_color @fg;              /* same */
+@define-color placeholder_text_color @primary;  /* placeholder text color (text on search background fields) */
+@define-color disabled_fg_color @grey;       /* disabled controls */
+
+/* Scroll bars (sliders) */
+@define-color scroll_bar_inactive @grey;
+@define-color scroll_bar_active @primary;
+@define-color scroll_bar_bg @bg;
+
+/* Modules box (plugins) */
+@define-color plugin_bg_color @bg;
+@define-color section_label shade(@fg, 0.92);
+@define-color plugin_label_color @fg;
+@define-color collapsible_bg_color @bg;
+
+/* Modules controls (sliders and comboboxes) */
+@define-color bauhaus_bg alpha(@bg, 0.55);
+@define-color bauhaus_fg @fg;       /* needed to correctly display color pickers in all states, even if they inherit @fg_color by default */
+@define-color bauhaus_border shade(@bg, 0.5);
+@define-color bauhaus_indicator_border @primary;
+@define-color bauhaus_fill @grey;
+@define-color bauhaus_bg_hover @grey;
+@define-color bauhaus_fg_hover @fg;
+@define-color bauhaus_fg_selected @fg;
+@define-color bauhaus_fg_insensitive alpha(@fg, 0.4);
+
+/* GTK Buttons and tabs */
+@define-color button_bg @buttonPrimary;
+@define-color button_fg alpha(@fg, 0.55);
+@define-color button_border shade(@button_bg, 1.04);
+@define-color button_hover_bg @grey;
+@define-color button_hover_fg @fg;
+
+/* text fields */
+@define-color field_bg @bg;
+@define-color field_fg @fg;
+@define-color field_active_bg @bg;
+@define-color field_active_fg @fg;
+@define-color field_selected_bg @bg;
+@define-color field_selected_fg @fg;
+@define-color field_hover_bg @bg;
+@define-color field_hover_fg @fg;
+
+/* Tooltips and contextual helpers */
+@define-color tooltip_bg_color @bg;
+@define-color tooltip_fg_color @fg;
+@define-color really_dark_bg_color @bg;
+@define-color log_fg_color @fg;
+
+/* Views */
+@define-color darkroom_bg_color @bg;    /* this need to be middle grey to correctly work on images. And for all themes */
+@define-color darkroom_preview_bg_color @darkroom_bg_color;
+@define-color lighttable_bg_color @bg;
+@define-color lighttable_preview_bg_color @darkroom_bg_color;
+@define-color lighttable_bg_font_color @bg;
+@define-color print_bg_color @lighttable_bg_color;
+
+/* Lighttable and film-strip */
+@define-color thumbnail_font_color @fg;
+@define-color thumbnail_bg_color @bg;
+@define-color thumbnail_star_bg_color @bg;
+@define-color thumbnail_star_hover_color @primary;
+@define-color thumbnail_localcopy @fg;
+@define-color thumbnail_fg_color @fg;
+@define-color thumbnail_bg50_color @bg;
+@define-color thumbnail_selected_bg_color @bg;
+@define-color thumbnail_hover_bg_color @bg;
+@define-color thumbnail_hover_fg_color @fg;
+@define-color filmstrip_bg_color @lighttable_bg_color;
+@define-color timeline_bg_color shade(@lighttable_bg_color, 0.9);
+@define-color timeline_fg_color @text_color;
+@define-color timeline_text_bg_color alpha(black, .8);
+@define-color timeline_text_fg_color alpha(white, .9);
+
+@define-color range_graph_color alpha(@timeline_fg_color, 0.75);
+@define-color range_bg_color alpha(@fg, 0.12);
+@define-color range_cursor_color alpha(@fg, 0.75);
+@define-color range_sel_color alpha(@bauhaus_fill, 0.6);
+@define-color range_icon_color alpha(@thumbnail_hover_fg_color, 0.35);
+
+/* Brushes */
+@define-color brush_cursor alpha(white, .9);
+@define-color brush_trace alpha(black, .6);
+
+/* Graphs : histogram, navigation thumbnail and some items on tone curve */
+@define-color graph_bg @bg;
+@define-color graph_exterior shade(@graph_bg, 0.9);
+@define-color graph_border @primary;
+@define-color graph_fg @fg;
+@define-color graph_fg_active @fg;
+@define-color graph_grid @primary;
+@define-color graph_overlay @grey;
+@define-color inset_histogram alpha(@grey, 0.50);
+/* Primaries selected for visual legibility across a variety of
+   gamuts, and to combine to pleasing secondaries. The combination of
+   all three must either to either the same number or >= 255 to
+   produce a neutral overlap. */
+@define-color graph_red @red;
+@define-color graph_green @green;
+@define-color graph_blue @blue;
+
+@define-color colorlabel_red @red;
+@define-color colorlabel_green @green;
+@define-color colorlabel_blue @blue;
+@define-color colorlabel_yellow @yellow;
+@define-color colorlabel_purple @purple;
+
+
+/* Set background on thumbnails hover overlays */
+.dt_overlays_hover_extended #thumb-main:hover #thumb-bottom,
+.dt_overlays_mixed #thumb-main:hover #thumb-bottom,
+.dt_overlays_hover #thumb-main:hover #thumb-bottom
+{
+    background-image: none;  /* rgb color needs to be set to same color as #thumb-back hover background */
+    background-color: @bg;
+}
+
+/* Set background on block infos in last overlay mode and culling/preview modes shown with mouse hover */
+.dt_overlays_hover_block #thumb-image:hover #thumb-bottom
+{
+    background-image: none;
+    background-color: @bg;
+}
+
+/* Set red reject icon when visible */
+.dt_overlays_hover #thumb-main:hover #thumb-reject:active,
+.dt_overlays_hover #thumb-main:hover #thumb-reject:hover,
+.dt_overlays_hover_extended #thumb-main:hover #thumb-reject:active,
+.dt_overlays_hover_extended #thumb-main:hover #thumb-reject:hover,
+.dt_overlays_always #thumb-reject:active,
+.dt_overlays_always #thumb-main:hover #thumb-reject:active,
+.dt_overlays_always #thumb-main:selected #thumb-reject:active,
+.dt_overlays_always #thumb-reject:hover,
+.dt_overlays_always #thumb-main:hover #thumb-reject:hover,
+.dt_overlays_always_extended #thumb-reject:active,
+.dt_overlays_always_extended #thumb-main:hover #thumb-reject:active,
+.dt_overlays_always_extended #thumb-main:selected #thumb-reject:active,
+.dt_overlays_always_extended #thumb-reject:hover,
+.dt_overlays_always_extended #thumb-main:hover #thumb-reject:hover,
+.dt_overlays_mixed #thumb-reject:active,
+.dt_overlays_mixed #thumb-main:hover #thumb-reject:active,
+.dt_overlays_mixed #thumb-main:selected #thumb-reject:active,
+.dt_overlays_mixed #thumb-reject:hover,
+.dt_overlays_mixed #thumb-main:hover #thumb-reject:hover,
+.dt_overlays_hover_block #thumb-image:hover #thumb-reject:active,  /* for overlay hover block, set it on #thumb-image and not #thumb-main here to avoid some glitches when block disappear */
+.dt_overlays_hover_block #thumb-image:hover #thumb-reject:hover
+{
+    color: @red;
+}

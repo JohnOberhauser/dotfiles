@@ -1,7 +1,7 @@
-result="$($HOME/workspace/OkPanel/bin/okpanel checkLock)"
+result="$(okshellctl lock check)"
 
 echo $result
 
 if [ $result = "unlocked" ]; then
-  /home/john/workspace/OkPanel/bin/okpanel lock
+  okshellctl lock activate
 fi

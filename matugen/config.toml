@@ -1,0 +1,66 @@
+[config]
+version_check = false
+caching = false
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/kitty/themes/Matugen.conf'
+post_hook = "kitty +kitten themes --reload-in=all Matugen"
+
+[templates.firefox_colors]
+input_path = '~/.config/matugen/templates/firefox/colors.css'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/colors.css'
+
+[templates.firefox_darkreader_svg]
+input_path = '~/.config/matugen/templates/firefox/darkreader.svg'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/darkreader.svg'
+
+[templates.firefox_passwords_svg]
+input_path = '~/.config/matugen/templates/firefox/passwords.svg'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/passwords.svg'
+
+[templates.firefox_protonvpn_svg]
+input_path = '~/.config/matugen/templates/firefox/protonvpn.svg'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn.svg'
+
+[templates.firefox_protonvpn_protected_svg]
+input_path = '~/.config/matugen/templates/firefox/protonvpn_protected.svg'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn_protected.svg'
+
+[templates.firefox_protonvpn_unprotected_svg]
+input_path = '~/.config/matugen/templates/firefox/protonvpn_unprotected.svg'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn_unprotected.svg'
+
+[templates.firefox_protonvpn_warning_svg]
+input_path = '~/.config/matugen/templates/firefox/protonvpn_warning.svg'
+output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn_warning.svg'
+
+[templates.firefox_start_page]
+input_path = '~/.config/matugen/templates/firefox/start_page_colors.css'
+output_path = '~/workspace/Varda-Theme/firefox/startpage/start_page_colors.css'
+
+[templates.firefox_darkreader_settings]
+input_path = '~/.config/matugen/templates/firefox/darkreader_settings_template.json'
+output_path = '~/workspace/Varda-Theme/firefox/startpage/darkreader/settings.json'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland/theme.conf'
+output_path = '~/workspace/Varda-Theme/hypr/conf/theme.conf'
+
+[templates.darktable]
+input_path = '~/.config/matugen/templates/darktable/user.css'
+output_path = '~/.config/darktable/user.css'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+post_hook = 'pkill -USR2 btop || true'
+
+[templates.gtk3_colors]
+input_path = '~/.config/matugen/templates/gtk/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/gtk.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+
+[templates.gtk4_colors]
+input_path = '~/.config/matugen/templates/gtk/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/gtk.css'

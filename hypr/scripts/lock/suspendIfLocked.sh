@@ -1,4 +1,4 @@
-result="$($HOME/workspace/OkPanel/bin/okpanel checkLock)"
+result="$(okshellctl lock check)"
 
 echo $result
 

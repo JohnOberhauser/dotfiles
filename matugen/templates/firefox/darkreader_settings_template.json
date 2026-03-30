@@ -1,0 +1,95 @@
+{
+    "schemeVersion": 2,
+    "enabled": true,
+    "fetchNews": true,
+    "theme": {
+        "mode": 1,
+        "brightness": 100,
+        "contrast": 100,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": false,
+        "fontFamily": "serif",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "darkSchemeBackgroundColor": "{{ colors.surface.dark.hex }}",
+        "darkSchemeTextColor": "{{ colors.on_surface.dark.hex }}",
+        "scrollbarColor": "{{ colors.surface.dark.hex }}",
+        "selectionColor": "auto",
+        "styleSystemControls": true,
+        "lightColorScheme": "Default",
+        "darkColorScheme": "Default",
+        "immediateModify": false
+    },
+    "presets": [],
+    "customThemes": [],
+    "enabledByDefault": false,
+    "enabledFor": [
+        "outlook.office.com",
+        "chatgpt.com",
+        "duckduckgo.com",
+        "app.standardnotes.com",
+        "app.slack.com",
+        "www.youtube.com",
+        "music.youtube.com",
+        "bsky.app",
+        "www.twitch.tv",
+        "discord.com",
+        "open.spotify.com",
+        "reddit.com",
+        "app.zoom.us",
+        "localhost:8384",
+        "claude.ai"
+    ],
+    "disabledFor": [],
+    "changeBrowserTheme": false,
+    "syncSettings": false,
+    "syncSitesFixes": false,
+    "automation": {
+        "enabled": false,
+        "mode": "system",
+        "behavior": "OnOff"
+    },
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    },
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "previewNewDesign": true,
+    "previewNewestDesign": false,
+    "enableForPDF": true,
+    "enableForProtectedPages": false,
+    "enableContextMenus": false,
+    "detectDarkTheme": false,
+    "installation": {
+        "date": 1726505406151,
+        "reason": "update",
+        "version": "4.9.89"
+    },
+    "notifyOfNews": false,
+    "readNews": [
+        "v4-9-16",
+        "v4-9",
+        "attention",
+        "dr-5-announcement",
+        "2m-users",
+        "automation",
+        "product-hunt-golden-kitty-2018",
+        "time-settings",
+        "safari",
+        "500k-users",
+        "stylish",
+        "product-hunt",
+        "custom-site-settings",
+        "thanks-for-contribution",
+        "dynamic-theme"
+    ],
+    "displayedNews": [
+        "thanks-2023",
+        "g-search-crash",
+        "firefox-bugs"
+    ]
+}

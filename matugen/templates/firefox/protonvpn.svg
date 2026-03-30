@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 18.499072 20.235862"
+   version="1.1"
+   id="svg141"
+   sodipodi:docname="protonvpn-logo-green.svg"
+   width="18.499071"
+   height="20.235863"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview143"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="29.259592"
+     inkscape:cx="14.798566"
+     inkscape:cy="10.936585"
+     inkscape:window-width="2536"
+     inkscape:window-height="1370"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Ebene_1-2" />
+  <defs
+     id="defs111">
+    <style
+       id="style109">.cls-1{opacity:0;}.cls-2{fill:#fff;}.cls-3,.cls-4{fill:#56b366;}.cls-3{fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title113">protonvpn-logo-green</title>
+  <g
+     id="Ebene_2"
+     data-name="Ebene 2"
+     transform="translate(-15.69095,-14.33)">
+    <g
+       id="Ebene_1-2"
+       data-name="Ebene 1">
+      <g
+         class="cls-1"
+         id="g117">
+        <rect
+           class="cls-2"
+           width="162.98"
+           height="48.720001"
+           id="rect115"
+           x="0"
+           y="0" />
+      </g>
+      <path
+         class="cls-3"
+         d="m 33.035734,17.831502 a 1.97797,1.9029347 0 0 0 -3.95594,0 c 0,0 0,0 0,0.05894 l -8.620798,2.67758 a 1.9779699,1.9029346 0 1 0 -1.592878,2.972283 1.9517136,1.8776744 0 0 0 0.603893,-0.101041 l 5.662595,6.879193 a 1.9779699,1.9029346 0 1 0 3.106988,-0.698865 l 3.010716,-9.893576 a 1.9692178,1.8945146 0 0 0 1.785424,-1.894514 z M 26.91803,29.122809 a 1.9604657,1.8860945 0 0 0 -0.875207,0.210502 l -5.531314,-6.736052 a 1.9604657,1.8860945 0 0 0 0.280066,-0.791486 l 8.804592,-2.702841 a 1.9779699,1.9029346 0 0 0 0.306322,0.269442 l -2.975706,9.750435 z"
+         id="path119"
+         style="stroke-width:0.858447;fill:{{ colors.on_surface.dark.hex }};fill-opacity:1" />
+    </g>
+  </g>
+</svg>

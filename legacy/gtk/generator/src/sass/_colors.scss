@@ -1,0 +1,147 @@
+// When color definition differs for dark and light variant,
+// it gets @if ed depending on $variant
+
+@import 'tweaks-temp';
+
+@function gtkalpha($c, $a) {
+  @return unquote("alpha(#{$c}, #{$a})");
+}
+
+@function on($color, $state: 'primary') {
+  // Allow 'light' or 'dark' to $color
+  @if ($color == 'light') { $color: $fg; }
+  @if ($color == 'dark') { $color: $bg; }
+
+  // Calculate color brightness according to https://www.w3.org/TR/AERT/#color-contrast
+  $brightness: (red($color) * 299 + green($color) * 587 + blue($color) * 114) / 1000;
+
+  @if ($brightness >= 156) {
+    @if ($state == 'primary') { @return rgba($bg, 0.87); }
+    @if ($state == 'secondary') { @return rgba($bg, 0.6); }
+    @if ($state == 'disabled') { @return rgba($bg, 0.38); }
+    @if ($state == 'secondary-disabled') { @return rgba($bg, 0.26); }
+    @if ($state == 'track') { @return rgba($bg, 0.26); }
+    @if ($state == 'track-disabled') { @return rgba($bg, 0.12); }
+    @if ($state == 'divider') { @return rgba($bg, 0.12); }
+    @if ($state == 'secondary-fill') { @return rgba($bg, 0.08); }
+    @if ($state == 'fill') { @return rgba($bg, 0.04); }
+  } @else {
+    @if ($state == 'primary') { @return $fg; }
+    @if ($state == 'secondary') { @return rgba($fg, 1); }
+    @if ($state == 'disabled') { @return rgba($fg, 0.5); }
+    @if ($state == 'secondary-disabled') { @return rgba($fg, 0.3); }
+    @if ($state == 'track') { @return $bg; }
+    @if ($state == 'track-disabled') { @return rgba($fg, 0.12); }
+    @if ($state == 'divider') { @return rgba($fg, 0.12); }
+    @if ($state == 'secondary-fill') { @return rgba($fg, 0.08); }
+    @if ($state == 'fill') { @return rgba($fg, 0.04); }
+  }
+}
+
+@function highlight($color) {
+  @if (lightness($color) >= 80%) { @return rgba($fg, 0); }
+  @else if (lightness($color) >= 40%) { @return rgba($fg, 0.2); }
+  @else { @return rgba($fg, 0.1); }
+}
+
+//
+// Basic colors
+//
+
+$primary:                               $primary;
+$drop_target_color:                     $warning;
+$indicator:                             $primary;
+$titlebar-indicator:                    $primary;
+$inverse-indicator:                     $primary;
+$applet-primary:                        $primary;
+$titlebar-primary:                      $primary;
+$osd-primary:                           $primary;
+
+$background:                            $bg;
+$surface:                               $bg;
+$base:                                  $bg;
+$base-alt:                              $bg;
+$sidebg:                                $bg;
+
+$login-background:                      $bg; // For gnome-shell
+
+$tooltip:                               $bg;
+$osd:                                   $bg;
+$scrim:                                 $bg;
+$scrim-alt:                             $bg;
+$scrim-inverse:                         rgba($fg, 0.1);
+$titlebar:                              $bg;
+$titlebar-backdrop:                     $bg;
+$popover:                               $base;
+$panel-solid:                           $bg;
+$panel:                                 rgba($panel-solid, $panel_opacity);
+
+$button:                                on($bg, fill);
+$entry:                                 on($bg, fill);
+
+//
+// Misc colors
+//
+
+$link:                                  $primary;
+$link-visited:                          $primary;
+
+$warning:                               $warning;
+$error:                                 $error;
+$success:                               $success;
+
+$suggested:                             $primary;
+$destructive:                           $error;
+
+$frame:                                 $bg;
+$border:                                $bg;
+$side-border:                           $bg;
+$solid-border:                          $bg;
+$border-alt:                            rgba($bg, 0.16); // darker border color for Chrome and Firefox
+
+//
+// Overlay state colors
+//
+
+$overlay-normal:                        gtkalpha(currentColor, 0.05);
+$overlay-hover:                         gtkalpha(currentColor, 0.08);
+$overlay-focus:                         gtkalpha(currentColor, 0.08);
+$overlay-focus-hover:                   gtkalpha(currentColor, 0.16);
+$overlay-active:                        gtkalpha(currentColor, 0.12);
+$overlay-checked:                       gtkalpha(currentColor, 0.10);
+$overlay-selected:                      gtkalpha(currentColor, 0.06);
+
+//
+// Text and derivative colors
+//
+
+$text:                                  on($bg);
+$text-secondary:                        on($bg, secondary);
+$text-disabled:                         on($bg, disabled);
+$text-secondary-disabled:               on($bg, secondary-disabled);
+$track:                                 on($bg, track);
+$track-disabled:                        on($bg, track-disabled);
+$divider:                               on($bg, divider);
+$secondary-fill:                        on($bg, secondary-fill);
+$fill:                                  on($bg, fill);
+
+$titlebar-text:                         on($titlebar);
+$titlebar-text-secondary:               on($titlebar, secondary);
+$titlebar-text-disabled:                on($titlebar, disabled);
+$titlebar-text-secondary-disabled:      on($titlebar, secondary-disabled);
+$titlebar-track:                        on($titlebar, track);
+$titlebar-track-disabled:               on($titlebar, track-disabled);
+$titlebar-divider:                      on($titlebar, divider);
+$titlebar-fill:                         on($titlebar, fill);
+
+$panel-text:                            on($panel);
+$panel-text-secondary:                  on($panel, secondary);
+$panel-text-disabled:                   on($panel, disabled);
+$panel-text-secondary-disabled:         on($panel, secondary-disabled);
+$panel-track:                           on($panel, track);
+$panel-track-disabled:                  on($panel, track-disabled);
+$panel-divider:                         on($panel, divider);
+$panel-fill:                            on($panel, fill);
+
+// workaround for GTK3 @placeholder_text_color which doesn't allow translucent colors
+$placeholder_text_color:                if($variant == 'light', mix($bg, $base, percentage(0.6)), mix($fg, $base, percentage(0.7)));

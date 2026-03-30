@@ -1,0 +1,6 @@
+:root {
+    --bg-color: {{ colors.surface.dark.hex }};
+    --fg-color: {{ colors.on_surface.dark.hex }};
+    --primary-color: {{ colors.primary.dark.hex }};
+    --tab-selected-bgcolor: {{ colors.surface_variant.dark.hex }} !important;
+}

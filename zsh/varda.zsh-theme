@@ -1,8 +1,6 @@
 # This theme requires nerd fonts
 # https://github.com/ryanoasis/nerd-fonts
 
-source "$(dirname $0)/theme.zsh"
-
 # edit these to change behavior
 # possible values are defined in the function "define_chars" below
 set_settings() {

@@ -1,0 +1,37 @@
+include /home/john/.config/kitty/localTheme/kitty.conf
+include /home/john/.config/kitty/keybinds.conf
+
+shell_integration no-cursor
+
+allow_remote_control yes
+
+update_check_interval 0
+
+font_family      monospace
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_family      JetBrainsMono NFM Medium
+bold_font        JetBrainsMono NFM ExtraBold
+italic_font      JetBrainsMono NFM Medium Italic
+bold_italic_font JetBrainsMono NFM ExtraBold Italic
+
+tab_bar_edge bottom
+tab_bar_align left
+tab_bar_style powerline
+tab_powerline_style angled
+tab_title_template "{title}"
+active_tab_font_style   bold
+inactive_tab_font_style normal
+
+cursor_shape underline
+cursor_underline_thickness 1.0
+
+touch_scroll_multiplier 10.0
+
+confirm_os_window_close 0
+
+; cursor_trail 1
+; cursor_trail_decay 0.1 0.4
+; cursor_trail_start_threshold 2

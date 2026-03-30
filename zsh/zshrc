@@ -52,7 +52,7 @@ alias windows='sudo mount /dev/sdb3 /mnt/windows'
 alias tablet='systemctl --user restart opentabletdriver.service'
 
 # firefox alias
-alias tryf='./mach try --preset fenix'
+alias tryf='./mach try --preset android-fenix'
 alias tryff='./mach try --preset firefox-android'
 alias tryg='./mach try --preset android-geckoview'
 alias mbuild='./mach clobber && ./mach --no-interactive bootstrap --application-choice mobile_android_artifact_mode && ./mach build && pkill -f "^$HOME/.mozbuild/jdk"'
