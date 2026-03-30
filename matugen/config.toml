@@ -64,3 +64,8 @@ post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings s
 [templates.gtk4_colors]
 input_path = '~/.config/matugen/templates/gtk/gtk-colors.css'
 output_path = '~/.config/gtk-4.0/gtk.css'
+
+[templates.cursor]
+input_path = '~/.config/matugen/templates/cursor/build_cursor.sh'
+output_path = '~/workspace/Varda-Theme/cursor/build_cursor.sh'
+post_hook = '~/workspace/Varda-Theme/cursor/regen_cursor.sh'

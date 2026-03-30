@@ -63,6 +63,7 @@ power-profiles-daemon \
 python \
 qt5-wayland \
 qt6-wayland \
+resvg \
 ripgrep \
 sassc \
 slurp \

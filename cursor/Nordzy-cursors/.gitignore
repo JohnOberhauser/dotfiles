@@ -1,0 +1,12 @@
+README.md.backup
+.DS_Store
+archives/
+tools/pngs/
+tools/svgs/themes/*.svg.svg
+**/.tmp.svg
+**/.tmp_anim.svg
+hyprcursors/working_states/
+CC_venv/
+xcursors/systemCursor
+tools/svgs/themes/systemCursor.svg
+tools/svgs/themes/systemCursor-spinner.svg
