@@ -1,0 +1,236 @@
+{
+  "name": "Matugen",
+  "author": "Obez",
+  "dark": true,
+  "editorScheme": "/Matugen_Scheme.xml",
+  "colors": {
+    "primary": "{{colors.primary.default.hex}}",
+    "error": "{{colors.error.default.hex}}",
+    "on_primary": "{{colors.on_primary.default.hex}}",
+    "on_error": "{{colors.on_error.default.hex}}",
+    "primary_container": "{{colors.primary_container.default.hex}}",
+    "error_container": "{{colors.error_container.default.hex}}",
+    "on_primary_container": "{{colors.on_primary_container.default.hex}}",
+    "on_error_container": "{{colors.on_error_container.default.hex}}",
+    "inverse_primary": "{{colors.inverse_primary.default.hex}}",
+    "surface_dim": "{{colors.surface_dim.default.hex}}",
+    "primary_fixed": "{{colors.primary_fixed.default.hex}}",
+    "surface": "{{colors.surface.default.hex}}",
+    "primary_fixed_dim": "{{colors.primary_fixed_dim.default.hex}}",
+    "surface_bright": "{{colors.surface_bright.default.hex}}",
+    "on_primary_fixed": "{{colors.on_primary_fixed.default.hex}}",
+    "surface_container_lowest": "{{colors.surface_container_lowest.default.hex}}",
+    "on_primary_fixed_variant": "{{colors.on_primary_fixed_variant.default.hex}}",
+    "surface_container_low": "{{colors.surface_container_low.default.hex}}",
+    "secondary": "{{colors.secondary.default.hex}}",
+    "surface_container": "{{colors.surface_container.default.hex}}",
+    "on_secondary": "{{colors.on_secondary.default.hex}}",
+    "surface_container_high": "{{colors.surface_container_high.default.hex}}",
+    "secondary_container": "{{colors.secondary_container.default.hex}}",
+    "surface_container_highest": "{{colors.surface_container_highest.default.hex}}",
+    "on_secondary_container": "{{colors.on_secondary_container.default.hex}}",
+    "on_surface": "{{colors.on_surface.default.hex}}",
+    "secondary_fixed": "{{colors.secondary_fixed.default.hex}}",
+    "on_surface_variant": "{{colors.on_surface_variant.default.hex}}",
+    "secondary_fixed_dim": "{{colors.secondary_fixed_dim.default.hex}}",
+    "outline": "{{colors.outline.default.hex}}",
+    "on_secondary_fixed": "{{colors.on_secondary_fixed.default.hex}}",
+    "outline_variant": "{{colors.outline_variant.default.hex}}",
+    "on_secondary_fixed_variant": "{{colors.on_secondary_fixed_variant.default.hex}}",
+    "inverse_surface": "{{colors.inverse_surface.default.hex}}",
+    "tertiary": "{{colors.tertiary.default.hex}}",
+    "inverse_on_surface": "{{colors.inverse_on_surface.default.hex}}",
+    "on_tertiary": "{{colors.on_tertiary.default.hex}}",
+    "surface_variant": "{{colors.surface_variant.default.hex}}",
+    "tertiary_container": "{{colors.tertiary_container.default.hex}}",
+    "background": "{{colors.background.default.hex}}",
+    "on_tertiary_container": "{{colors.on_tertiary_container.default.hex}}",
+    "on_background": "{{colors.on_background.default.hex}}",
+    "tertiary_fixed": "{{colors.tertiary_fixed.default.hex}}",
+    "shadow": "{{colors.shadow.default.hex}}",
+    "tertiary_fixed_dim": "{{colors.tertiary_fixed_dim.default.hex}}",
+    "scrim": "{{colors.scrim.default.hex}}",
+    "on_tertiary_fixed": "{{colors.on_tertiary_fixed.default.hex}}",
+    "on_tertiary_fixed_variant": "{{colors.on_tertiary_fixed_variant.default.hex}}",
+    "red": "{{base16.base08.default.hex}}"
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Green": "{{colors.secondary.default.hex}}",
+      "Actions.Blue": "{{colors.primary.default.hex}}",
+      "Actions.Red": "{{base16.base08.default.hex}}",
+      "Actions.Yellow": "{{colors.tertiary.default.hex}}",
+      "Actions.Grey": "{{colors.surface_variant.default.hex}}",
+      "Actions.GreyInline": "{{colors.surface_variant.default.hex}}",
+      "Actions.GreyInline.Dark": "{{colors.surface_variant.default.hex}}",
+      "Objects.BlackText": "{{colors.surface.default.hex}}",
+      "Objects.Blue": "{{colors.primary.default.hex}}",
+      "Objects.Green": "{{colors.secondary.default.hex}}",
+      "Objects.GreenAndroid": "{{colors.secondary.default.hex}}",
+      "Objects.Grey": "{{colors.surface_variant.default.hex}}",
+      "Objects.Pink": "{{colors.primary.default.hex}}",
+      "Objects.Purple": "{{colors.primary.default.hex}}",
+      "Objects.Red": "{{base16.base08.default.hex}}",
+      "Objects.RedStatus": "{{base16.base08.default.hex}}",
+      "Objects.Yellow": "{{colors.tertiary.default.hex}}",
+      "Objects.YellowDark": "{{colors.tertiary.default.hex}}",
+      "Tree.iconColor": "{{colors.primary.default.hex}}",
+      "Checkbox.Background.Default": "{{colors.surface.default.hex}}",
+      "Checkbox.Background.Default.Dark": "{{colors.surface.default.hex}}",
+      "Checkbox.Background.Disabled": "{{colors.surface.default.hex}}",
+      "Checkbox.Background.Disabled.Dark": "{{colors.surface.default.hex}}",
+      "Checkbox.Background.Selected": "{{colors.surface.default.hex}}",
+      "Checkbox.Background.Selected.Dark": "{{colors.surface.default.hex}}",
+      "Checkbox.Border.Default": "{{colors.primary.default.hex}}",
+      "Checkbox.Border.Default.Dark": "{{colors.primary.default.hex}}",
+      "Checkbox.Border.Disabled": "{{colors.primary.default.hex}}",
+      "Checkbox.Border.Disabled.Dark": "{{colors.primary.default.hex}}",
+      "Checkbox.Border.Selected": "{{colors.primary.default.hex}}",
+      "Checkbox.Border.Selected.Dark": "{{colors.primary.default.hex}}",
+      "Checkbox.Focus.Thin.Default": "{{colors.primary.default.hex}}",
+      "Checkbox.Focus.Thin.Default.Dark": "{{colors.primary.default.hex}}",
+      "Checkbox.Focus.Thin.Selected": "{{colors.primary.default.hex}}",
+      "Checkbox.Focus.Thin.Selected.Dark": "{{colors.primary.default.hex}}",
+      "Checkbox.Focus.Wide": "{{colors.primary.default.hex}}",
+      "Checkbox.Focus.Wide.Dark": "{{colors.primary.default.hex}}",
+      "Checkbox.Foreground.Disabled": "{{colors.surface_variant.default.hex}}",
+      "Checkbox.Foreground.Disabled.Dark": "{{colors.surface_variant.default.hex}}",
+      "Checkbox.Foreground.Selected": "{{colors.on_surface.default.hex}}",
+      "Checkbox.Foreground.Selected.Dark": "{{colors.on_surface.default.hex}}",
+      "Blue.Fill": "{{colors.primary.default.hex}}",
+      "Blue.Solid": "{{colors.primary.default.hex}}",
+      "Blue.Stroke": "{{colors.primary.default.hex}}",
+      "Gray.SecondaryStroke": "{{colors.on_surface.default.hex}}",
+      "Gray.Fill": "{{colors.primary.default.hex}}",
+      "Gray.Stroke": "{{colors.on_surface.default.hex}}",
+      "Green.Fill": "{{colors.secondary.default.hex}}",
+      "Green.Solid": "{{colors.secondary.default.hex}}",
+      "Green.Stroke": "{{colors.secondary.default.hex}}",
+      "Orange.Fill": "{{colors.tertiary.default.hex}}",
+      "Orange.Stroke": "{{colors.tertiary.default.hex}}",
+      "Purple.Fill": "{{colors.primary.default.hex}}",
+      "Purple.Stroke": "{{colors.primary.default.hex}}",
+      "Red.Fill": "{{base16.base08.default.hex}}",
+      "Red.Solid": "{{base16.base08.default.hex}}",
+      "Red.Stroke": "{{base16.base08.default.hex}}",
+      "Teal.Fill": "{{colors.surface_variant.default.hex}}",
+      "Teal.Stroke": "{{colors.surface_variant.default.hex}}",
+      "Yellow.Fill": "{{colors.tertiary.default.hex}}",
+      "Yellow.Solid": "{{colors.tertiary.default.hex}}",
+      "Yellow.Stroke": "{{colors.tertiary.default.hex}}"
+    }
+  },
+
+  "ui": {
+    "*": {
+      "background": "surface",
+      "foreground": "on_surface",
+      "textText": "on_surface",
+
+      "warningBackground": "surface",
+      "iconBackground": "surface",
+      "inactiveWarningFocusColor": "surface",
+
+      "infoForeground": "on_surface",
+
+      "activeBackground": "surface_variant",
+      "pressedBackground": "surface_variant",
+      "hoverBackground": "surface_variant",
+      "selectedBackground": "surface_variant",
+      "selectionBackground": "surface_variant",
+      "selectionForeground": "on_surface",
+      "selectionInactiveBackground": "surface_variant",
+      "selectionBackgroundInactive": "surface",
+
+      "disabledBackground": "surface",
+      "inactiveBackground": "surface",
+
+      "disabledForeground": "primary",
+      "disabledText": "primary",
+      "inactiveForeground": "primary",
+
+      "acceleratorForeground": "on_surface",
+      "acceleratorSelectionForeground": "on_surface",
+
+      "errorForeground": "on_error",
+      "errorBackground": "error",
+
+      "borderColor": "surface",
+      "disabledBorderColor": "primary",
+      "focusColor": "surface",
+      "focusedBorderColor": "surface",
+      "hoverBorderColor": "surface",
+      "pressedBorderColor": "surface",
+
+      "separatorColor": "primary",
+      "lineSeparatorColor": "primary",
+      "matchForeground": "primary",
+      "linkColor": "primary",
+      "activeForeground": "primary",
+      "hoverForeground": "primary",
+      "visitedForeground": "primary",
+      "spanBackground": "primary",
+      "dropLineColor": "primary",
+      "underlineColor": "primary"
+    },
+    "Button": {
+      "startBackground": "surface",
+      "endBackground": "surface",
+      "startBorderColor": "primary",
+      "endBorderColor": "primary",
+
+      "default": {
+        "foreground": "on_surface",
+        "startBackground": "primary",
+        "endBackground": "primary",
+        "startBorderColor": "primary",
+        "endBorderColor": "primary",
+        "focusedBorderColor": "surface"
+      }
+    },
+
+    "Borders": {
+      "color": "outline",
+      "ContrastBorderColor": "outline"
+    },
+
+    "DefaultTabs": {
+      "underlineColor": "primary",
+      "inactiveUnderlineColor": "primary",
+      "underlineHeight": 5,
+      "hoverBackground": "primary"
+    },
+
+    "DragAndDrop": {
+      "areaForeground": "on_surface",
+      "areaBackground": "surface"
+    },
+    "Editor": {
+      "background": "surface",
+      "foreground": "on_surface",
+      "shortcutForeground": "on_surface"
+    },
+    "EditorPane.inactiveBackground": "surface",
+    "EditorTabs": {
+      "background": "surface",
+      "underlinedTabForeground": "on_surface",
+
+      "underlineColor": "primary",
+      "underlineHeight": 4,
+
+      "underlinedTabBackground": "surface",
+      "inactiveColoredFileBackground": "surface"
+    },
+    "FileColor": {
+      "Yellow": "secondary",
+      "Green": "tertiary"
+    },
+    "SearchMatch": {
+      "startBackground": "primary",
+      "endBackground": "primary"
+    },
+    "ToolWindow.Button.selectedBackground": "primary"
+  }
+
+}
