@@ -134,7 +134,7 @@ prompt_git() {
     if [[ -n $dirty ]]; then
       prompt_segment yellow black
     else
-      prompt_segment $GIT_UNCHANGED_BG $GIT_UNCHANGED_FG
+      prompt_segment blue white
     fi
 
     if [[ -e "${repo_path}/BISECT_LOG" ]]; then
