@@ -41,10 +41,10 @@ gvfs \
 hypridle \
 hyprland \
 hyprpicker \
-hyprsunset \
 imagemagick \
 jq \
 kitty \
+kvantum \
 libnatpmp \
 libnotify \
 linux-firmware \
