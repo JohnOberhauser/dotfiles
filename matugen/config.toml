@@ -72,9 +72,9 @@ post_hook = '~/workspace/Varda-Theme/cursor/regen_cursor.sh'
 
 [templates.intellij_1]
 input_path = '~/.config/matugen/templates/intellij/Matugen.theme.json'
-output_path = '~/workspace/Varda-Theme/intellij/matugen/Matugen-Intellij-Theme/Matugen.theme.json'
+output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen.theme.json'
 
 [templates.intellij_2]
 input_path = '~/.config/matugen/templates/intellij/Matugen_Scheme.xml'
-output_path = '~/workspace/Varda-Theme/intellij/matugen/Matugen-Intellij-Theme/Matugen_Scheme.xml'
-post_hook = '~/workspace/Varda-Theme/intellij/matugen/apply_theme.sh'
+output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen_Scheme.xml'
+post_hook = '~/workspace/Varda-Theme/intellij/apply_theme.sh'

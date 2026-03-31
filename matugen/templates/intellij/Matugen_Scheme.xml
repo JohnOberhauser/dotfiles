@@ -49,7 +49,7 @@
     <option name="FILESTATUS_changelistConflict" value="{{base16.base08.default.hex_stripped}}" />
     <option name="FILESTATUS_modifiedOutside" value="{{colors.primary.default.hex_stripped}}" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
-    <option name="GUTTER_BACKGROUND" value="c0e11" />
+    <option name="GUTTER_BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
     <option name="HINT_BORDER" value="{{colors.surface_container_highest.default.hex_stripped}}" />
     <option name="HTML_TAG_TREE_LEVEL0" value="f44747" />
     <option name="HTML_TAG_TREE_LEVEL1" value="93394a" />
@@ -246,7 +246,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="c0e11" />
+        <option name="FOREGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -273,7 +273,7 @@
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="c0e11" />
+        <option name="FOREGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -551,7 +551,7 @@
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="{{colors.on_surface.default.hex_stripped}}" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -612,7 +612,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="e3ffff" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -869,7 +869,7 @@
     <option name="HAML_TEXT">
       <value>
         <option name="FOREGROUND" value="e3ffff" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="HAML_XHTML" baseAttributes="" />
@@ -1121,25 +1121,25 @@
     </option>
     <option name="LOGCAT_FILTER_KEY">
       <value>
-        <option name="FOREGROUND" value="c0e11" />
+        <option name="FOREGROUND" value="{{colors.surface.default.hex_stripped}}" />
         <option name="BACKGROUND" value="{{colors.primary.default.hex_stripped}}" />
       </value>
     </option>
     <option name="LOGCAT_FILTER_KVALUE">
       <value>
-        <option name="FOREGROUND" value="c0e11" />
+        <option name="FOREGROUND" value="{{colors.surface.default.hex_stripped}}" />
         <option name="BACKGROUND" value="{{colors.secondary.default.hex_stripped}}" />
       </value>
     </option>
     <option name="LOGCAT_FILTER_REGEX_KVALUE">
       <value>
-        <option name="FOREGROUND" value="c0e11" />
+        <option name="FOREGROUND" value="{{colors.surface.default.hex_stripped}}" />
         <option name="BACKGROUND" value="{{colors.secondary.default.hex_stripped}}" />
       </value>
     </option>
     <option name="LOGCAT_FILTER_STRING_KVALUE">
       <value>
-        <option name="FOREGROUND" value="c0e11" />
+        <option name="FOREGROUND" value="{{colors.surface.default.hex_stripped}}" />
         <option name="BACKGROUND" value="{{colors.secondary.default.hex_stripped}}" />
       </value>
     </option>
@@ -1823,7 +1823,7 @@
     <option name="SLIM_STATIC_CONTENT">
       <value>
         <option name="FOREGROUND" value="e3ffff" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="SLIM_STRING_INTERPOLATED">
@@ -1889,7 +1889,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="{{colors.primary.default.hex_stripped}}" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1943,7 +1943,7 @@
     <option name="Unresolved reference access">
       <value>
         <option name="FOREGROUND" value="{{colors.on_surface.default.hex_stripped}}" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
         <option name="EFFECT_COLOR" value="{{base16.base08.default.hex_stripped}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -1987,7 +1987,7 @@
     <option name="XML_PROLOGUE">
       <value>
         <option name="FOREGROUND" value="e3ffff" />
-        <option name="BACKGROUND" value="c0e11" />
+        <option name="BACKGROUND" value="{{colors.surface.default.hex_stripped}}" />
       </value>
     </option>
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
