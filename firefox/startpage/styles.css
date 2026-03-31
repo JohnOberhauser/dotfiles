@@ -56,8 +56,8 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: var(--space-largest);
-  right: var(--space-largest);
+  left: 0;
+  right: 0;
   margin: auto;
   height: max-content;
   max-width: var(--surface-maxWidth);
@@ -81,7 +81,7 @@ body {
   padding: var(--space-large);
   flex: 1;
   max-width: calc(100% - var(--picture-size));
-
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
