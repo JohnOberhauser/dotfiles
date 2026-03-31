@@ -3,7 +3,7 @@ version_check = false
 caching = false
 
 [templates.kitty]
-input_path = '~/.config/matugen/templates/kitty-colors.conf'
+input_path = '~/.config/matugen/templates/kitty/kitty-colors.conf'
 output_path = '~/.config/kitty/themes/Matugen.conf'
 post_hook = "kitty +kitten themes --reload-in=all Matugen"
 
@@ -78,3 +78,11 @@ output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen.t
 input_path = '~/.config/matugen/templates/intellij/Matugen_Scheme.xml'
 output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen_Scheme.xml'
 post_hook = '~/workspace/Varda-Theme/intellij/apply_theme.sh'
+
+[templates.kvantum_kvconfig]
+input_path = '~/.config/matugen/templates/kvantum/kvantum-colors.kvconfig'
+output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
+
+[templates.kvantum_svg]
+input_path = '~/.config/matugen/templates/kvantum/kvantum-colors.svg'
+output_path = '~/.config/Kvantum/matugen/matugen.svg'
