@@ -10,6 +10,8 @@ Here you can change the opacity level and the main color of the browser. Also th
 
 :root {
     --urlbar-width:40vw;
+    --arrowpanel-background: var(--bg-color) !important;
+    --arrowpanel-color: var(--fg-color) !important;
 }
 
 /*
@@ -17,12 +19,14 @@ G E N E R A L
 */
 
 window,
+menupopup,
 #main-window,
 #toolbar-menubar,
 #TabsToolbar,
 #PersonalToolbar,
 #navigator-toolbox,
 #sidebar-box,
+#sidebar,
 #tabbrowser-tabpanels,
 #nav-bar {
     background-color: var(--bg-color) !important;
@@ -39,7 +43,7 @@ window,
 ::selection {
     background-color: var(--fg-color);
     /* Text color of your selection */
-    color: #141414;
+    color: var(--bg-color);
 }
 
 .toolbarbutton-1 {
