@@ -223,8 +223,8 @@
       "inactiveColoredFileBackground": "surface"
     },
     "FileColor": {
-      "Yellow": "secondary",
-      "Green": "tertiary"
+      "Yellow": "surface",
+      "Green": "surface"
     },
     "SearchMatch": {
       "startBackground": "primary",

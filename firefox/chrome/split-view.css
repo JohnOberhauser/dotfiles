@@ -1,0 +1,7 @@
+#tabbrowser-tabpanels {
+    &[splitview] {
+        & .split-view-panel:not(.deck-selected) > .browserContainer > .browserStack > split-view-footer {
+            display: none !important;
+        }
+    }
+}
