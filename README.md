@@ -2,13 +2,8 @@
 This repository contains:
 - My dot files for my hyprland setup
 - Scripts to set up everything from a fresh arch install (assuming btrfs and luks are already set up through archinstall)
-- Theme implementations for various programs
 
-Some configs will have files ignored by git related to the color scheme / theme.  The missing files 
-are located in `./themes`.  I use a script to easily swap out themes.
-The script is `./themes/setTheme.sh`
-
-# ⚠️Ags setup moved into a new project repo => https://github.com/JohnOberhauser/OkPanel
+# If you like the shell, check out [OkShell](https://johnoberhauser.github.io/OkShell/)
 
 # Theme Showcase
 
