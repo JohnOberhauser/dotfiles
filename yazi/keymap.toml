@@ -10,7 +10,7 @@ prepend_keymap = [
 							''', "yank"],                 	  desc = "Copy the selected files" },
 	{ on = "a",			run = ['''shell 'for path in "$@"; do aunpack "$path"; done' --confirm'''],	desc = "Extract compressed file" },
 	{ on = "w", 		run = ['''
-							shell '$HOME/workspace/OkPanel/bin/okpanel wallpaper $@'
+							shell 'okshellctl set-wallpaper $@'
 							'''], 				 desc = "Show task manager" },
 	# Tasks (used to be w)
 	{ on = "T", 				run = "tasks_show", 					desc = "Show task manager" },
