@@ -2,6 +2,7 @@
 
 sudo pacman -Syu \
 7zip \
+adw-gtk-theme \
 amd-ucode \
 atool \
 base-devel \
