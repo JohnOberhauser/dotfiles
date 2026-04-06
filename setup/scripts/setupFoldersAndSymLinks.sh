@@ -32,3 +32,5 @@ ln -s $HOME/workspace/Varda-Theme/okshell $HOME/.config/
 ln -s $HOME/workspace/Varda-Theme/matugen $HOME/.config/
 
 ln -s $HOME/workspace/Varda-Theme/kvantum/Kvantum $HOME/.config/
+
+ln -s $HOME/workspace/Varda-Theme/gitui $HOME/.config/

@@ -1,0 +1,6 @@
+(
+    selection_fg: Some("White"),
+    selection_bg: Some("DarkGray"),
+    command_fg: Some("White"),
+    cmdbar_bg: Some("Black"),
+)

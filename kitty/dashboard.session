@@ -19,11 +19,6 @@ layout splits
 launch zsh -c "source ~/.zshrc; cd ~/workspace/OkShell; gitui; exec zsh"
 launch --location=hsplit --bias=40 zsh -c "source ~/.zshrc; cd ~/workspace/OkShell; exec zsh"
 
-new_tab OkPanel
-layout splits
-launch zsh -c "source ~/.zshrc; cd ~/workspace/OkPanel; gitui; exec zsh"
-launch --location=hsplit --bias=40 zsh -c "source ~/.zshrc; cd ~/workspace/OkPanel; exec zsh"
-
 new_tab Varda
 layout splits
 launch zsh -c "source ~/.zshrc; cd ~/workspace/Varda-Theme; gitui; exec zsh"

@@ -146,9 +146,9 @@
       "disabledBackground": "surface",
       "inactiveBackground": "surface",
 
-      "disabledForeground": "primary",
-      "disabledText": "primary",
-      "inactiveForeground": "primary",
+      "disabledForeground": "on_surface_variant",
+      "disabledText": "on_surface_variant",
+      "inactiveForeground": "on_surface_variant",
 
       "acceleratorForeground": "on_surface",
       "acceleratorSelectionForeground": "on_surface",
@@ -157,14 +157,14 @@
       "errorBackground": "error",
 
       "borderColor": "surface",
-      "disabledBorderColor": "primary",
+      "disabledBorderColor": "on_surface_variant",
       "focusColor": "surface",
       "focusedBorderColor": "surface",
       "hoverBorderColor": "surface",
       "pressedBorderColor": "surface",
 
-      "separatorColor": "primary",
-      "lineSeparatorColor": "primary",
+      "separatorColor": "outline",
+      "lineSeparatorColor": "outline",
       "matchForeground": "primary",
       "linkColor": "primary",
       "activeForeground": "primary",
@@ -181,7 +181,7 @@
       "endBorderColor": "primary",
 
       "default": {
-        "foreground": "on_surface",
+        "foreground": "on_primary",
         "startBackground": "primary",
         "endBackground": "primary",
         "startBorderColor": "primary",
