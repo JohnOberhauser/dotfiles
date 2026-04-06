@@ -9,7 +9,6 @@ bc \
 blueman \
 bluez \
 bluez-utils \
-brightnessctl \
 btop \
 cava \
 cliphist \
