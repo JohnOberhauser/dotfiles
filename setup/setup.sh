@@ -3,7 +3,6 @@
 ./scripts/install.sh
 ./scripts/installFirefoxNightly.sh
 ./scripts/installYay.sh
-./scripts/installFromAur.sh
 ./scripts/installFonts.sh
 ./scripts/setupFoldersAndSymLinks.sh
 ./scripts/setupZsh.sh
@@ -27,7 +26,7 @@
 #
 # intellij:
 # set font
-# install varda.jar theme plugin
+# install matugen.jar theme plugin
 #
 # remove extra packages from archinstall
 # wofi, dolphin, sddm (make sure you set up tuigreet first)
