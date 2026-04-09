@@ -31,7 +31,3 @@ cursor_underline_thickness 1.0
 touch_scroll_multiplier 10.0
 
 confirm_os_window_close 0
-
-; cursor_trail 1
-; cursor_trail_decay 0.1 0.4
-; cursor_trail_start_threshold 2
