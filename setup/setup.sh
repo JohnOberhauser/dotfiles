@@ -4,8 +4,8 @@
 ./scripts/installFirefoxNightly.sh
 ./scripts/installYay.sh
 ./scripts/installFonts.sh
+./scripts/installOhMyZsh.sh
 ./scripts/setupFoldersAndSymLinks.sh
-./scripts/setupZsh.sh
 ./scripts/startServices.sh
 ./scripts/setupUfw.sh
 ./scripts/setupCursor.sh
@@ -21,7 +21,6 @@
 #
 # Firefox:
 # sym link user chrome directory and the user.js file
-# Set font
 # install custom dark reader
 #
 # intellij:

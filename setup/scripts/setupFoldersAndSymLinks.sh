@@ -28,4 +28,4 @@ ln -sf $HOME/workspace/dotfiles/gitui $HOME/.config/
 
 ln -sf $HOME/workspace/dotfiles/zsh/zshrc $HOME/.zshrc
 
-ln -sf $HOME/workspace/dotfiles/zsh/varda.zsh-theme $HOME/.oh-my-zsh/themes/
+ln -sf $HOME/workspace/dotfiles/zsh/varda.zsh-theme $HOME/.config/oh-my-zsh/themes/
