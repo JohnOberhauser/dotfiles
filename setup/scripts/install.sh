@@ -74,7 +74,6 @@ trash-cli \
 ttf-hanazono \
 ttf-hannom \
 ttf-jetbrains-mono-nerd \
-ttf-nerd-fonts-symbols \
 udiskie \
 ufw \
 upower \
