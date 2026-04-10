@@ -7,4 +7,4 @@ wget -O firefox-nightly.tar.bz2 "https://download.mozilla.org/?product=firefox-n
 tar -xjf firefox-nightly.tar.bz2
 
 mv firefox ~/.local/share/firefox-nightly
-cp $HOME/workspace/Varda-Theme/setup/installFiles/firefox-nightly.desktop $HOME/.local/share/applications/
+cp $HOME/workspace/dotfiles/setup/installFiles/firefox-nightly.desktop $HOME/.local/share/applications/

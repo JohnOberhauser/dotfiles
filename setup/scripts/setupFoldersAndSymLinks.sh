@@ -6,23 +6,26 @@ mkdir -p $HOME/Videos
 mkdir -p $HOME/Videos/ScreenRecordings
 
 rm -rf ~/.config/hypr
-ln -s $HOME/workspace/Varda-Theme/hypr $HOME/.config/
-touch $HOME/.config/hypr/conf/monitors.conf
+ln -sf $HOME/workspace/dotfiles/hypr $HOME/.config/
+touch $HOME/.config/hypr/conf/font.conf
+touch $HOME/.config/hypr/conf/theme.conf
 
-ln -s $HOME/workspace/Varda-Theme/kitty $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/kitty $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/nvim $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/nvim $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/fastfetch $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/fastfetch $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/yazi $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/yazi $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/spotify-player/ $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/spotify-player/ $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/okshell $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/matugen $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/matugen $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/kvantum/Kvantum $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/kvantum/Kvantum $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/gitui $HOME/.config/
 
-ln -s $HOME/workspace/Varda-Theme/gitui $HOME/.config/
+ln -sf $HOME/workspace/dotfiles/zsh/zshrc $HOME/.zshrc
+
+ln -sf $HOME/workspace/dotfiles/zsh/varda.zsh-theme $HOME/.oh-my-zsh/themes/

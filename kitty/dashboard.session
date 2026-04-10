@@ -19,7 +19,7 @@ layout splits
 launch zsh -c "source ~/.zshrc; cd ~/workspace/OkShell; gitui; exec zsh"
 launch --location=hsplit --bias=40 zsh -c "source ~/.zshrc; cd ~/workspace/OkShell; exec zsh"
 
-new_tab Varda
+new_tab Dotfiles
 layout splits
-launch zsh -c "source ~/.zshrc; cd ~/workspace/Varda-Theme; gitui; exec zsh"
-launch --location=hsplit --bias=40 zsh -c "source ~/.zshrc; cd ~/workspace/Varda-Theme; exec zsh"
+launch zsh -c "source ~/.zshrc; cd ~/workspace/dotfiles; gitui; exec zsh"
+launch --location=hsplit --bias=40 zsh -c "source ~/.zshrc; cd ~/workspace/dotfiles; exec zsh"

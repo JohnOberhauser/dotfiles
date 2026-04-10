@@ -1,1 +1,1 @@
-$HOME/workspace/Varda-Theme/hypr/scripts/lock/lockCommand.sh
+$HOME/workspace/dotfiles/hypr/scripts/lock/lockCommand.sh

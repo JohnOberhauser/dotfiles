@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/john/workspace/Varda-Theme/firefox/startpage
-python /home/john/workspace/Varda-Theme/firefox/startpage/server.py
+cd $HOME/workspace/dotfiles/firefox/startpage
+python /home/john/workspace/dotfiles/firefox/startpage/server.py

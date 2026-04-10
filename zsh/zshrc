@@ -40,11 +40,8 @@ alias gcam='sh -c '\''git add -A && git commit -m "$@"'\'' _'
 alias bird="rsync -a --info=progress2 /mnt/ssd/camera /mnt/network/"
 alias camera="rsync -a --info=progress2 --chmod=D755 /run/media/john/EOS_DIGITAL/DCIM/100EOSR6/ /mnt/ssd/camera/$(date +%F)/ && umount /run/media/john/EOS_DIGITAL"
 alias timezone='sudo timedatectl set-timezone "$(curl --fail https://ipapi.co/timezone)"'
-alias theme='function _theme() { ~/workspace/Varda-Theme/themes/setTheme.sh "$1" }; _theme'
 alias cd=z
 alias spt=spotify_player
-alias addovpn='function _vpn() { ~/workspace/Varda-Theme/zsh/scripts/addVpnConnection.sh "$1" "$2" "$3" }; _vpn'
-alias addwg='function _wg() { ~/workspace/Varda-Theme/zsh/scripts/addWireguardConnection.sh "$1" }; _wg'
 alias okpanel="/home/john/workspace/OkPanel/bin/okpanel"
 alias protontricks='flatpak run com.github.Matoking.protontricks'
 alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'

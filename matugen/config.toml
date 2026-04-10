@@ -9,51 +9,51 @@ post_hook = "kitty +kitten themes --reload-in=all Matugen"
 
 [templates.firefox_colors]
 input_path = '~/.config/matugen/templates/firefox/colors.css'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/colors.css'
+output_path = '~/workspace/dotfiles/firefox/chrome/colors.css'
 
 [templates.firefox_darkreader_svg]
 input_path = '~/.config/matugen/templates/firefox/darkreader.svg'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/darkreader.svg'
+output_path = '~/workspace/dotfiles/firefox/chrome/darkreader.svg'
 
 [templates.firefox_passwords_svg]
 input_path = '~/.config/matugen/templates/firefox/passwords.svg'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/passwords.svg'
+output_path = '~/workspace/dotfiles/firefox/chrome/passwords.svg'
 
 [templates.firefox_protonvpn_svg]
 input_path = '~/.config/matugen/templates/firefox/protonvpn.svg'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn.svg'
+output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn.svg'
 
 [templates.firefox_protonvpn_protected_svg]
 input_path = '~/.config/matugen/templates/firefox/protonvpn_protected.svg'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn_protected.svg'
+output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_protected.svg'
 
 [templates.firefox_protonvpn_unprotected_svg]
 input_path = '~/.config/matugen/templates/firefox/protonvpn_unprotected.svg'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn_unprotected.svg'
+output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_unprotected.svg'
 
 [templates.firefox_protonvpn_warning_svg]
 input_path = '~/.config/matugen/templates/firefox/protonvpn_warning.svg'
-output_path = '~/workspace/Varda-Theme/firefox/chrome/protonvpn_warning.svg'
+output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_warning.svg'
 
 [templates.firefox_start_page]
 input_path = '~/.config/matugen/templates/firefox/start_page_colors.css'
-output_path = '~/workspace/Varda-Theme/firefox/startpage/start_page_colors.css'
+output_path = '~/workspace/dotfiles/firefox/startpage/start_page_colors.css'
 
 [templates.firefox_darkreader_settings]
 input_path = '~/.config/matugen/templates/firefox/darkreader_settings_template.json'
-output_path = '~/workspace/Varda-Theme/firefox/startpage/darkreader/settings.json'
+output_path = '~/workspace/dotfiles/firefox/startpage/darkreader/settings.json'
 
 [templates.firefox_user_js]
 input_path = '~/.config/matugen/templates/firefox/user.js'
-output_path = '~/workspace/Varda-Theme/firefox/user.js'
+output_path = '~/workspace/dotfiles/firefox/user.js'
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland/theme.conf'
-output_path = '~/workspace/Varda-Theme/hypr/conf/theme.conf'
+output_path = '~/workspace/dotfiles/hypr/conf/theme.conf'
 
 [templates.hyprland_font]
 input_path = '~/.config/matugen/templates/hyprland/font.conf'
-output_path = '~/workspace/Varda-Theme/hypr/conf/font.conf'
+output_path = '~/workspace/dotfiles/hypr/conf/font.conf'
 
 [templates.darktable]
 input_path = '~/.config/matugen/templates/darktable/user.css'
@@ -80,17 +80,17 @@ post_hook = 'chmod +x /tmp/set-gtk-fonts && /tmp/set-gtk-fonts'
 
 [templates.cursor]
 input_path = '~/.config/matugen/templates/cursor/build_cursor.sh'
-output_path = '~/workspace/Varda-Theme/cursor/build_cursor.sh'
-post_hook = '~/workspace/Varda-Theme/cursor/regen_cursor.sh'
+output_path = '~/workspace/dotfiles/cursor/build_cursor.sh'
+post_hook = '~/workspace/dotfiles/cursor/regen_cursor.sh'
 
 [templates.intellij_1]
 input_path = '~/.config/matugen/templates/intellij/Matugen.theme.json'
-output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen.theme.json'
+output_path = '~/workspace/dotfiles/intellij/Matugen-Intellij-Theme/Matugen.theme.json'
 
 [templates.intellij_2]
 input_path = '~/.config/matugen/templates/intellij/Matugen_Scheme.xml'
-output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen_Scheme.xml'
-post_hook = '~/workspace/Varda-Theme/intellij/apply_theme.sh'
+output_path = '~/workspace/dotfiles/intellij/Matugen-Intellij-Theme/Matugen_Scheme.xml'
+post_hook = '~/workspace/dotfiles/intellij/apply_theme.sh'
 
 [templates.intellij_fonts]
 input_path = '~/.config/matugen/templates/intellij/set-intellij-fonts.sh'

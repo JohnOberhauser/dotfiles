@@ -35,7 +35,7 @@ prepend_keymap = [
 	{ on = [ "g", "s" ],       	run = "cd /mnt/ssd",  					desc = "Go to the SSD" },
 	{ on = [ "g", "t" ],       	run = "cd ~/.local/share/Trash/files",  desc = "Go to the Trash directory" },
 	{ on = [ "g", "v" ],       	run = "cd ~/Videos",  					desc = "Go to the videos directory" },
-	{ on = [ "g", "V" ],       	run = "cd ~/workspace/Varda-Theme",  	desc = "Go to the Varda-Theme directory" },
+	{ on = [ "g", "V" ],       	run = "cd ~/workspace/dotfiles",  	    desc = "Go to the dotfiles directory" },
 	{ on = [ "g", "w" ],       	run = "cd ~/workspace",  				desc = "Go to the workspace directory" },
 	{ on = [ "g", "/" ],       	run = "cd /",          					desc = "Go to the root directory" },
 	{ on = [ "g", "<Space>" ], 	run = "cd --interactive", 				desc = "Go to a directory interactively" },

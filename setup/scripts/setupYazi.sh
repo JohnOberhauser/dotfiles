@@ -10,7 +10,7 @@ cd xdg-desktop-portal-termfilechooser
 meson build && ninja -C build && ninja -C build install
 
 mkdir -p $HOME/.config/xdg-desktop-portal
-cp $HOME/workspace/Varda-Theme/setup/installFiles/portals.conf $HOME/.config/xdg-desktop-portal/
+cp $HOME/workspace/dotfiles/setup/installFiles/portals.conf $HOME/.config/xdg-desktop-portal/
 
 # Move some installed files to the correct location
 sudo mv /usr/local/share/xdg-desktop-portal/portals/termfilechooser.portal /usr/share/xdg-desktop-portal/portals/
@@ -24,8 +24,8 @@ systemctl --user restart xdg-desktop-portal.service
 
 # Setup xdg-mime default file manager
 # Needs to go in /usr/ because firefox won't use local user's .desktop files for some reason
-sudo cp $HOME/workspace/Varda-Theme/setup/installFiles/yazi-kitty.sh /usr/local/bin/
-sudo cp $HOME/workspace/Varda-Theme/setup/installFiles/yazi-kitty.desktop /usr/share/applications/
+sudo cp $HOME/workspace/dotfiles/setup/installFiles/yazi-kitty.sh /usr/local/bin/
+sudo cp $HOME/workspace/dotfiles/setup/installFiles/yazi-kitty.desktop /usr/share/applications/
 
 xdg-mime default yazi-kitty.desktop inode/directory
 
