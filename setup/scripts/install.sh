@@ -52,6 +52,7 @@ loupe \
 meson \
 neovim \
 networkmanager \
+otf-monaspace-nerdfonts \
 pacman-contrib \
 pipewire \
 pipewire-pulse \
