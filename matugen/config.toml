@@ -43,9 +43,17 @@ output_path = '~/workspace/Varda-Theme/firefox/startpage/start_page_colors.css'
 input_path = '~/.config/matugen/templates/firefox/darkreader_settings_template.json'
 output_path = '~/workspace/Varda-Theme/firefox/startpage/darkreader/settings.json'
 
+[templates.firefox_user_js]
+input_path = '~/.config/matugen/templates/firefox/user.js'
+output_path = '~/workspace/Varda-Theme/firefox/user.js'
+
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland/theme.conf'
 output_path = '~/workspace/Varda-Theme/hypr/conf/theme.conf'
+
+[templates.hyprland_font]
+input_path = '~/.config/matugen/templates/hyprland/font.conf'
+output_path = '~/workspace/Varda-Theme/hypr/conf/font.conf'
 
 [templates.darktable]
 input_path = '~/.config/matugen/templates/darktable/user.css'
@@ -64,7 +72,11 @@ post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings s
 [templates.gtk4_colors]
 input_path = '~/.config/matugen/templates/gtk/gtk-colors.css'
 output_path = '~/.config/gtk-4.0/gtk.css'
-post_hook = '~/workspace/Varda-Theme/matugen/templates/gtk/set-font.sh'
+
+[templates.gtk_fonts]
+input_path = '~/.config/matugen/templates/gtk/set-gtk-fonts.sh'
+output_path = '/tmp/set-gtk-fonts'
+post_hook = 'chmod +x /tmp/set-gtk-fonts && /tmp/set-gtk-fonts'
 
 [templates.cursor]
 input_path = '~/.config/matugen/templates/cursor/build_cursor.sh'
@@ -79,6 +91,11 @@ output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen.t
 input_path = '~/.config/matugen/templates/intellij/Matugen_Scheme.xml'
 output_path = '~/workspace/Varda-Theme/intellij/Matugen-Intellij-Theme/Matugen_Scheme.xml'
 post_hook = '~/workspace/Varda-Theme/intellij/apply_theme.sh'
+
+[templates.intellij_fonts]
+input_path = '~/.config/matugen/templates/intellij/set-intellij-fonts.sh'
+output_path = '/tmp/set-intellij-fonts.sh'
+post_hook = 'chmod +x /tmp/set-intellij-fonts.sh && /tmp/set-intellij-fonts.sh'
 
 [templates.kvantum_kvconfig]
 input_path = '~/.config/matugen/templates/kvantum/kvantum-colors.kvconfig'
