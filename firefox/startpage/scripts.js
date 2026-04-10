@@ -42,7 +42,7 @@ const bookmarks = [
       {"id":"oa5G4ZJXzwxLi4CM","label":"Arch","url":"https://archlinux.org/packages/"},
       {"id":"fgOAsCWGRNHCRZQR","label":"Hyprland","url":"https://wiki.hyprland.org/"},
       {"id":"PeIbQBjpA41kjGD6","label":"Ags","url":"https://aylur.github.io/ags/"},
-      {"id":"PeIbQBjpA41kjGD6","label":"OkPanel","url":"https://johnoberhauser.github.io/OkPanel/"}
+      {"id":"PeIbQBjpA41kjGD6","label":"OkShell","url":"https://johnoberhauser.github.io/OkShell/"}
     ]
   },
   {"id":"qjTUGL2OWFspQmm2","label":"Media","bookmarks":[
