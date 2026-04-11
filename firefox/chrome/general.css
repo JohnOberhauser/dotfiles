@@ -9,9 +9,15 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 
 :root {
+    color: var(--fg-color) !important;
+    background-color: var(--bg-color) !important;
     --urlbar-width:40vw;
     --arrowpanel-background: var(--bg-color) !important;
     --arrowpanel-color: var(--fg-color) !important;
+    --input-text-border-color: var(--fg-color) !important;
+    --border-width: 0px !important;
+    --panel-background: var(--bg-color) !important;
+    --panel-color: var(--fg-color) !important;
 }
 
 /*

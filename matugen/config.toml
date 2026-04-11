@@ -39,6 +39,11 @@ output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_warning.svg'
 input_path = '~/.config/matugen/templates/firefox/start_page_colors.css'
 output_path = '~/workspace/dotfiles/firefox/startpage/start_page_colors.css'
 
+[templates.firefox_fav_icon]
+input_path = '~/.config/matugen/templates/firefox/favicon.svg'
+output_path = '~/workspace/dotfiles/firefox/startpage/favicon.svg'
+post_hook = '~/workspace/dotfiles/firefox/startpage/create_fav_icon.sh'
+
 [templates.firefox_darkreader_settings]
 input_path = '~/.config/matugen/templates/firefox/darkreader_settings_template.json'
 output_path = '~/workspace/dotfiles/firefox/startpage/darkreader/settings.json'
