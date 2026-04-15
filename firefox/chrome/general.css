@@ -48,6 +48,13 @@ menupopup,
     margin-left: 10px !important;
 }
 
+/* Right click popups */
+menupopup {
+    --panel-background: var(--bg-color)!important;
+    --panel-border-color: none !important;
+    --panel-color: var(--fg-color) !important;
+}
+
 ::selection {
     background-color: var(--fg-color);
     /* Text color of your selection */
