@@ -3,8 +3,8 @@ chmod +x "$SCRIPT_DIR/build_cursor.sh"
 "$SCRIPT_DIR/build_cursor.sh"
 
 # copy the new files
-rm -rf $HOME/.icons/systemCursor/cursors
-cp -r $SCRIPT_DIR/Nordzy-cursors/xcursors/systemCursor/cursors $HOME/.icons/systemCursor/
+rm -rf $HOME/.local/share/icons/systemCursor/cursors
+cp -r $SCRIPT_DIR/Nordzy-cursors/xcursors/systemCursor/cursors $HOME/.local/share/icons/systemCursor/
 
 # set the new theme
 size=24
