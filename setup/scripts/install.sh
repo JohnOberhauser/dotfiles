@@ -7,7 +7,6 @@ amd-ucode \
 atool \
 base-devel \
 bc \
-blueman \
 bluez \
 bluez-utils \
 btop \
@@ -60,6 +59,7 @@ neovim \
 networkmanager \
 otf-monaspace-nerdfonts \
 pacman-contrib \
+pam-u2f \
 pipewire \
 pipewire-pulse \
 playerctl \
@@ -77,9 +77,11 @@ rsync \
 rustup \
 sassc \
 slurp \
+snap-pac \
 socat \
 sox \
 spotify-player \
+tela-circle-icon-theme-standard \
 trash-cli \
 ttf-hannom \
 ttf-jetbrains-mono-nerd \

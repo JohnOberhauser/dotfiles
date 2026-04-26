@@ -3,9 +3,12 @@
 ./scripts/install.sh
 ./scripts/installFirefoxNightly.sh
 ./scripts/installYay.sh
+./scripts/installFromAur.sh
 ./scripts/installFonts.sh
 ./scripts/installOhMyZsh.sh
 ./scripts/setupFoldersAndSymLinks.sh
+./scripts/installDesktop.sh
+./scripts/setupOpenTabletDriver.sh
 ./scripts/startServices.sh
 ./scripts/setupUfw.sh
 ./scripts/setupCursor.sh
