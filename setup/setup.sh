@@ -12,7 +12,6 @@
 ./scripts/setupTheme.sh
 ./scripts/setupYazi.sh
 ./scripts/setupXdgOpen.sh
-../themes/setTheme.sh varda
 ./scripts/setupTuigreet.sh
 
 # things left to do

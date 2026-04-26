@@ -12,6 +12,7 @@ bluez \
 bluez-utils \
 btop \
 cava \
+clang \
 cliphist \
 cmake \
 cpio \
@@ -36,6 +37,8 @@ gst-plugins-bad \
 gst-plugins-base \
 gst-plugins-good \
 gst-plugins-ugly \
+gtk4 \
+gtk4-layer-shell \
 gurk \
 gvfs \
 hypridle \
@@ -47,8 +50,11 @@ kitty \
 kvantum \
 libnatpmp \
 libnotify \
+libpipewire \
+libpulse \
 linux-firmware \
 loupe \
+matugen \
 meson \
 neovim \
 networkmanager \
@@ -62,17 +68,19 @@ plymouth \
 poppler \
 power-profiles-daemon \
 python \
+python-pillow \
 qt5-wayland \
 qt6-wayland \
 resvg \
 ripgrep \
+rsync \
+rustup \
 sassc \
 slurp \
 socat \
 sox \
 spotify-player \
 trash-cli \
-ttf-hanazono \
 ttf-hannom \
 ttf-jetbrains-mono-nerd \
 udiskie \
@@ -81,10 +89,13 @@ upower \
 uwsm \
 vim \
 wf-recorder \
+wget \
 wireplumber \
 wl-clipboard \
 xdg-desktop-portal-gtk \
 xdg-desktop-portal-hyprland \
+xorg-xcursorgen \
+xorg-xrdb \
 yazi \
 zoxide \
 zsh

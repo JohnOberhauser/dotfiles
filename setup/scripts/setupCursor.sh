@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p $HOME/.local/share/icons
+
 cp -r $HOME/workspace/dotfiles/setup/installFiles/cursor/* $HOME/.local/share/icons/
 
 # give flatpak permission to read from the .icons folder, and set the cursor path
