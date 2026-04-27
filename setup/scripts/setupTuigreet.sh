@@ -12,6 +12,7 @@ sudo systemctl enable --now greetd
 sudo cp $HOME/workspace/dotfiles/tuigreet/initcpio/hooks/setvtrgb /usr/lib/initcpio/hooks/
 sudo cp $HOME/workspace/dotfiles/tuigreet/initcpio/install/setvtrgb /usr/lib/initcpio/install/
 sudo cp $HOME/workspace/dotfiles/tuigreet/initcpio/install/sd-setvtrgb /usr/lib/initcpio/install/
+sudo cp $HOME/workspace/dotfiles/tuigreet/vtrgb/vtrgb /etc/
 
 # Virtual terminal colors, resolution, and plymouth
 sudo cp $HOME/workspace/dotfiles/tuigreet/mkinitcpio/mkinitcpio.conf /etc/
