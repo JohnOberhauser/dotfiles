@@ -58,6 +58,7 @@ meson \
 neovim \
 networkmanager \
 otf-monaspace-nerdfonts \
+os-prober \
 pacman-contrib \
 pam-u2f \
 pipewire \
