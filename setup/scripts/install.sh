@@ -62,6 +62,7 @@ os-prober \
 pacman-contrib \
 pam-u2f \
 pipewire \
+pipewire-alsa \
 pipewire-pulse \
 playerctl \
 plocate \
