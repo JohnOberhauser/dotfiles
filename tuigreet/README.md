@@ -12,7 +12,7 @@ Use this repo.  Grab /initcpio/ and place those files in
 (or install from the AUR)
 
 #### Step 2
-rename and move `varda.vga` to `/etc/vtrgb`
+copy `vtrgb` to `/etc/vtrgb`
 
 #### Step 3
 edit /etc/mkinitcpio.conf
