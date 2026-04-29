@@ -60,6 +60,14 @@ output_path = '~/workspace/dotfiles/hypr/conf/theme.conf'
 input_path = '~/.config/matugen/templates/hyprland/font.conf'
 output_path = '~/workspace/dotfiles/hypr/conf/font.conf'
 
+[templates.hyprland_lua]
+input_path = '~/.config/matugen/templates/hyprland/theme.lua'
+output_path = '~/workspace/dotfiles/hypr/conf/theme.lua'
+
+[templates.hyprland_lua_font]
+input_path = '~/.config/matugen/templates/hyprland/font.lua'
+output_path = '~/workspace/dotfiles/hypr/conf/font.lua'
+
 [templates.darktable]
 input_path = '~/.config/matugen/templates/darktable/user.css'
 output_path = '~/.config/darktable/user.css'

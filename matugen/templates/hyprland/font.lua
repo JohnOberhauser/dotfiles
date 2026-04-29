@@ -1,0 +1,8 @@
+hl.config({
+    group = {
+        groupbar = {
+            font_family = "{{ okshell.font.primary }}",
+            font_size   = 11,
+        },
+    },
+})
