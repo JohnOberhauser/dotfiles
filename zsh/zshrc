@@ -26,27 +26,21 @@ export PATH=~/Android/Sdk/platform-tools:$PATH
 alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
-alias sweep="/home/john/Documents/scripts/sweepGitBranches.sh"
 alias install="sudo pacman -Syu"
 alias update="sudo pacman -Syu && flatpak update && yay -Syu --devel"
 alias remove="sudo pacman -Rcns"
 alias uninstall="sudo pacman -Rcns"
-alias fastboot="/home/john/Android/Sdk/platform-tools/fastboot"
 alias sshpi="ssh john@192.168.50.158"
 alias v=nvim
 alias sv="sudo nvim"
 alias glm="git pull origin main"
 alias gcam='sh -c '\''git add -A && git commit -m "$@"'\'' _'
-alias bird="rsync -a --info=progress2 /mnt/ssd/camera /mnt/network/"
-alias camera="rsync -a --info=progress2 --chmod=D755 /run/media/john/EOS_DIGITAL/DCIM/100EOSR6/ /mnt/ssd/camera/$(date +%F)/ && umount /run/media/john/EOS_DIGITAL"
+alias bird="rsync -a --info=progress2 /home/john/Pictures/camera /mnt/network/"
+alias camera="rsync -a --info=progress2 --chmod=D755 /run/media/john/EOS_DIGITAL/DCIM/100EOSR6/ /home/john/Pictures/camera/$(date +%F)/ && umount /run/media/john/EOS_DIGITAL"
 alias timezone='sudo timedatectl set-timezone "$(curl --fail https://ipapi.co/timezone)"'
 alias cd=z
 alias spt=spotify_player
-alias okpanel="/home/john/workspace/OkPanel/bin/okpanel"
-alias protontricks='flatpak run com.github.Matoking.protontricks'
-alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'
 alias windows='sudo mount /dev/sdb3 /mnt/windows'
-alias tablet='systemctl --user restart opentabletdriver.service'
 
 # firefox alias
 alias tryf='./mach try --preset android-fenix'
