@@ -117,3 +117,8 @@ output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 [templates.kvantum_svg]
 input_path = '~/.config/matugen/templates/kvantum/kvantum-colors.svg'
 output_path = '~/.config/Kvantum/matugen/matugen.svg'
+
+[templates.steam]
+input_path = '~/.config/matugen/templates/steam/steam.css'
+output_path = '~/.var/app/io.github.Foldex.AdwSteamGtk/config/AdwSteamGtk/custom.css'
+post_hook =  'flatpak run io.github.Foldex.AdwSteamGtk -i'
