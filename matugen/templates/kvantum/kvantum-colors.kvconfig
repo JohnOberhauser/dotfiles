@@ -77,18 +77,18 @@ tooltip_blur_radius=10
 
 [GeneralColors]
 window.color={{colors.surface.default.hex}}
-base.color={{colors.surface_container_highest.default.hex}}
-alt.base.color={{colors.surface_container_low.default.hex}}
-button.color={{colors.surface_bright.default.hex}}
+base.color={{colors.surface.default.hex}}
+alt.base.color={{colors.surface.default.hex}}
+button.color={{colors.primary.default.hex}}
 light.color={{colors.surface_bright.default.hex}}
 mid.light.color={{colors.surface_variant.default.hex}}
 dark.color={{colors.surface.default.hex}}
 mid.color={{colors.surface_container_low.default.hex}}
-highlight.color={{colors.primary.default.hex}}
-inactive.highlight.color={{colors.primary_fixed_dim.default.hex}}
+highlight.color={{colors.surface_variant.default.hex}}
+inactive.highlight.color={{colors.surface_variant.default.hex}}
 text.color={{colors.on_surface.default.hex}}
 window.text.color={{colors.on_surface.default.hex}}
-button.text.color={{colors.on_surface.default.hex}}
+button.text.color={{colors.on_primary.default.hex}}
 disabled.text.color={{colors.inverse_on_surface.default.hex}}
 tooltip.text.color={{colors.on_surface.default.hex}}
 highlight.text.color={{colors.on_surface.default.hex}}

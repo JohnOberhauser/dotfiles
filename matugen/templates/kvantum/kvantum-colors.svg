@@ -189,7 +189,7 @@
             cx="98"
             cy="783.99"
             r="5"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <g
             id="button-default-indicator"
             transform="translate(-367.5 -2.5001)">
@@ -211,7 +211,7 @@
         <path
                 transform="translate(0,-20)"
                 d="m105.5 220c-4.4064 0-8 3.5936-8 8 5e-6 4.4064 3.5936 8 8 8s8-3.5936 8-8-3.5936-8-8-8zm0 2c3.3257 0 6 2.6743 6 6s-2.6743 6-6 6-6-2.6743-6-6c3e-6 -3.3257 2.6743-6 6-6zm0 3a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path7" />
     </g>
     <g
@@ -283,7 +283,7 @@
                 id="rect10" />
         <path
                 d="m398.59 91.086-23.414 23.414h26.828v-26.828l-3.4141 3.4141z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path10" />
     </g>
     <path
@@ -415,7 +415,7 @@
                 id="rect18" />
         <path
                 d="m65.002 432.02a1 1 0 0 0-0.70703 0.29297l-2.293 2.293-2.2832-2.2832a1 1 0 0 0-0.01-0.01 1 1 0 0 0-0.70117-0.28906l-0.01 0.0137a1 1 0 0 0-1 1 1 1 0 0 0 0.29297 0.70703l2.293 2.293-2.293 2.293a1 1 0 0 0-0.28906 0.69922 1 1 0 0 0 1 1 1 1 0 0 0 0.70703-0.29297l2.293-2.293 2.2832 2.2832a1 1 0 0 0 0.7168 0.30274 1 1 0 0 0 1-1 1 1 0 0 0-0.29297-0.70703l-2.3008-2.2988 2.2832-2.2832a1 1 0 0 0 0.31055-0.72071 1 1 0 0 0-1-1z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path18" />
     </g>
     <g
@@ -435,7 +435,7 @@
                 height="2"
                 rx="1"
                 ry="1"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect20" />
     </g>
     <g
@@ -450,7 +450,7 @@
                 id="rect21" />
         <path
                 d="m98 432.03c-0.554 0-1 0.446-1 1v2h-2c-0.554 0-1 0.446-1 1s0.446 1 1 1h2v2c0 0.554 0.446 1 1 1s1-0.446 1-1v-2h2c0.554 0 1-0.446 1-1s-0.446-1-1-1h-2v-2c0-0.554-0.446-1-1-1z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path21" />
     </g>
     <g
@@ -465,7 +465,7 @@
                 id="rect22" />
         <path
                 d="m116 432.03a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4zm0 2a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path22" />
     </g>
     <g
@@ -480,7 +480,7 @@
                 id="rect23" />
         <path
                 d="m65.002 432.02a1 1 0 0 0-0.70703 0.29297l-2.293 2.293-2.2832-2.2832a1 1 0 0 0-0.01-0.01 1 1 0 0 0-0.70117-0.28906l-0.01 0.0137a1 1 0 0 0-1 1 1 1 0 0 0 0.29297 0.70703l2.293 2.293-2.293 2.293a1 1 0 0 0-0.28906 0.69922 1 1 0 0 0 1 1 1 1 0 0 0 0.70703-0.29297l2.293-2.293 2.2832 2.2832a1 1 0 0 0 0.7168 0.30274 1 1 0 0 0 1-1 1 1 0 0 0-0.29297-0.70703l-2.3008-2.2988 2.2832-2.2832a1 1 0 0 0 0.31055-0.72071 1 1 0 0 0-1-1z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path23" />
     </g>
     <g
@@ -500,7 +500,7 @@
                 height="2"
                 rx="1"
                 ry="1"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect25" />
     </g>
     <g
@@ -515,7 +515,7 @@
                 id="rect26" />
         <path
                 d="m98 432.03c-0.554 0-1 0.446-1 1v2h-2c-0.554 0-1 0.446-1 1s0.446 1 1 1h2v2c0 0.554 0.446 1 1 1s1-0.446 1-1v-2h2c0.554 0 1-0.446 1-1s-0.446-1-1-1h-2v-2c0-0.554-0.446-1-1-1z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path26" />
     </g>
     <g
@@ -530,7 +530,7 @@
                 id="rect27" />
         <path
                 d="m116 432.03a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4zm0 2a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path27" />
     </g>
     <g
@@ -663,42 +663,42 @@
             y="167"
             width="12"
             height="12"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="progress-pattern-normal-bottom"
             x="32"
             y="187"
             width="12"
             height="12"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="progress-pattern-normal-topleft"
             x="20"
             y="167"
             width="12"
             height="12"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="progress-pattern-normal-topright"
             x="44"
             y="167"
             width="12"
             height="12"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="progress-pattern-normal-bottomleft"
             x="20"
             y="187"
             width="12"
             height="12"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="progress-pattern-normal-bottomright"
             x="44"
             y="187"
             width="12"
             height="12"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="progress-normal-top"
             x="71"
@@ -791,7 +791,7 @@
                 y="162"
                 width="8"
                 height="8"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect36" />
     </g>
     <g
@@ -802,7 +802,7 @@
                 y="162"
                 width="8"
                 height="8"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect37" />
     </g>
     <g
@@ -813,7 +813,7 @@
                 y="162"
                 width="8"
                 height="8"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect38" />
     </g>
     <g
@@ -877,96 +877,96 @@
             y="930.26"
             width="8"
             height="4"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-pressed-bottom"
             x="52"
             y="942.26"
             width="8"
             height="4"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-pressed"
             d="m52 934.26h8v8h-8z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-pressed-topright"
             d="m60 930.26c4 0 4 4 4 4h-4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-pressed-bottomright"
             d="m60 942.26h4s0 4-4 4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-pressed-right"
             x="60"
             y="934.26"
             width="4"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-pressed-left"
             x="48"
             y="934.26"
             width="4"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-pressed-topleft"
             d="m52 930.26v4h-4s0-4 4-4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-pressed-bottomleft"
             d="m48 942.26h4v4c-4 0-4-4-4-4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-toggled-top"
             x="71"
             y="930.26"
             width="8"
             height="4"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-toggled-bottom"
             x="71"
             y="942.26"
             width="8"
             height="4"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-toggled"
             d="m71 934.26h8v8h-8z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-toggled-right"
             x="79"
             y="934.26"
             width="4"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-toggled-topright"
             d="m79 930.26c4 0 4 4 4 4h-4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-toggled-bottomright"
             d="m79 942.26h4s0 4-4 4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-toggled-left"
             x="67"
             y="934.26"
             width="4"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-toggled-topleft"
             d="m71 930.26v4h-4s0-4 4-4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="itemview-toggled-bottomleft"
             d="m67 942.26h4v4c-4 0-4-4-4-4z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="itemview-focused-top"
             x="33"
@@ -1101,7 +1101,7 @@
     <path
             id="header-toggled"
             d="m124 104.88h-6v6h6z"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <path
             id="header-focused"
             d="m108 104.88h-6v6h6z"
@@ -2739,7 +2739,7 @@
                 cx="328"
                 cy="416"
                 r="5"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="circle154" />
     </g>
     <g
@@ -2756,14 +2756,14 @@
                 cx="372"
                 cy="416"
                 r="11"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 opacity=".3"
                 id="circle155" />
         <circle
                 cx="372"
                 cy="416"
                 r="5"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="circle156" />
     </g>
     <g
@@ -2780,14 +2780,14 @@
                 cx="350"
                 cy="416"
                 r="11"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 opacity=".2"
                 id="circle157" />
         <circle
                 cx="350"
                 cy="416"
                 r="5"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="circle158" />
     </g>
     <g
@@ -2825,7 +2825,7 @@
                 id="rect160" />
         <path
                 d="m335 438-3.3999-3.4717c-2e-3 -2e-3 -6e-3 -2e-3 -8e-3 -5e-3 -0.94165-0.97333-2.2378-1.5231-3.5921-1.5234-2.7614 0-5 2.2386-5 5s2.2386 5 5 5c1.3405-2e-3 2.6242-0.54194 3.5628-1.499 4e-3 -2e-3 9e-3 -4e-3 0.013-7e-3z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path160" />
     </g>
     <g
@@ -2842,12 +2842,12 @@
                 cx="350"
                 cy="438"
                 r="11"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 opacity=".2"
                 id="circle161" />
         <path
                 d="m357 438-3.3999-3.4717c-2e-3 -2e-3 -6e-3 -2e-3 -8e-3 -5e-3 -0.94165-0.97333-2.2378-1.5231-3.5921-1.5234-2.7614 0-5 2.2386-5 5s2.2386 5 5 5c1.3405-2e-3 2.6242-0.54194 3.5628-1.499 4e-3 -2e-3 9e-3 -4e-3 0.013-7e-3z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path161" />
     </g>
     <g
@@ -2864,12 +2864,12 @@
                 cx="372"
                 cy="438"
                 r="11"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 opacity=".3"
                 id="circle162" />
         <path
                 d="m379 438-3.3999-3.4717c-2e-3 -2e-3 -6e-3 -2e-3 -8e-3 -5e-3 -0.94165-0.97333-2.2378-1.5231-3.5921-1.5234-2.7614 0-5 2.2386-5 5s2.2386 5 5 5c1.3405-2e-3 2.6242-0.54194 3.5628-1.499 4e-3 -2e-3 9e-3 -4e-3 0.013-7e-3z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path162" />
     </g>
     <g
@@ -2908,28 +2908,28 @@
             y="287.02"
             width="8"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="slider-toggled-bottomright"
             x="290.95"
             y="303.02"
             width="8"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="slider-toggled-topleft"
             x="282.95"
             y="287.02"
             width="8"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="slider-toggled-bottomleft"
             x="282.95"
             y="303.02"
             width="8"
             height="8"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <rect
             id="slider-normal-topright"
             x="310.95"
@@ -2966,7 +2966,7 @@
                 y="162"
                 width="8"
                 height="8"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect165" />
     </g>
     <g
@@ -2977,7 +2977,7 @@
                 y="162"
                 width="8"
                 height="8"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="rect166" />
     </g>
     <g
@@ -2997,7 +2997,7 @@
             y="615"
             width="15"
             height="15"
-            fill="{{colors.primary.default.hex}}" />
+            fill="{{colors.surface_variant.default.hex}}" />
     <g
             id="menuitem-tearoff-focused"
             transform="translate(83.742 -272.34)">
@@ -3011,7 +3011,7 @@
                 id="rect168" />
         <path
                 d="m227.24 689h-2.2462v2h2.2462zm-4.4924 0h-2.2461v2h2.2461z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 id="path168" />
     </g>
     <path
@@ -3981,7 +3981,7 @@
             y="464"
             width="2"
             height="6.0003"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd"
             stroke-width=".69284" />
     <use
@@ -3997,7 +3997,7 @@
             y="91"
             width="2"
             height="6"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd"
             stroke-width=".69282" />
     <rect
@@ -4006,7 +4006,7 @@
             y="540"
             width="2"
             height="10"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd"
             stroke-width=".89443" />
     <rect
@@ -4016,7 +4016,7 @@
             y="15"
             width="2"
             height="6"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd"
             stroke-width=".69282" />
     <g
@@ -4528,7 +4528,7 @@
             y="562.99"
             width="2.5"
             height="7"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd" />
     <rect
             id="tooltip-shadow-hint-right"
@@ -4537,7 +4537,7 @@
             y="332.99"
             width="2.5"
             height="7"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd" />
     <rect
             id="tooltip-shadow-hint-bottom"
@@ -4545,7 +4545,7 @@
             y="631.99"
             width="2.5"
             height="7"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd" />
     <rect
             id="tooltip-shadow-hint-left"
@@ -4554,7 +4554,7 @@
             y="263.99"
             width="2.5"
             height="6.9999"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             fill-rule="evenodd" />
     <g
             id="tooltip-shadow-topleft"
@@ -4638,7 +4638,7 @@
             id="lineedit-focused"
             class="ColorScheme-Highlight"
             d="m367.5 22.5v36h48v-36z"
-            color="{{colors.primary.default.hex}}"
+            color="{{colors.surface_variant.default.hex}}"
             fill="{{colors.on_surface.default.hex}}"
             opacity=".15"
             stroke-width=".86602" />
@@ -4647,7 +4647,7 @@
             transform="translate(176.36 -808.36)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 stroke-width="1.25"
@@ -4655,15 +4655,15 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path276" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width="1.25"
                 id="path277" />
     </g>
@@ -4673,22 +4673,22 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 825.86v4h131v-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 id="path278" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path279" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width=".70711"
                 id="path280" />
     </g>
@@ -4697,7 +4697,7 @@
             transform="matrix(-1 0 0 1 606.64 -808.36)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 stroke-width="1.25"
@@ -4705,15 +4705,15 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path282" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width="1.25"
                 id="path283" />
     </g>
@@ -4723,22 +4723,22 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 825.86v4h131v-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 id="path284" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path285" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width=".70711"
                 id="path286" />
     </g>
@@ -4748,22 +4748,22 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 825.86v4h131v-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 id="path287" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path288" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width=".70711"
                 id="path289" />
     </g>
@@ -4773,22 +4773,22 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 825.86v4h131v-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 id="path290" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path291" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width=".70711"
                 id="path292" />
     </g>
@@ -4797,7 +4797,7 @@
             transform="matrix(1 0 0 -1 176.36 889.36)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 stroke-width="1.25"
@@ -4805,15 +4805,15 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path294" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width="1.25"
                 id="path295" />
     </g>
@@ -4822,7 +4822,7 @@
             transform="rotate(180 303.32 444.68)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".15"
                 stroke-width="1.25"
@@ -4830,15 +4830,15 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path297" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
-                fill="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 stroke-width="1.25"
                 id="path298" />
     </g>
@@ -4846,7 +4846,7 @@
             id="lineedit-normal"
             class="ColorScheme-Highlight"
             d="m291.5 22.5v36h48v-36z"
-            color="{{colors.primary.default.hex}}"
+            color="{{colors.surface_variant.default.hex}}"
             fill="{{colors.on_surface.default.hex}}"
             opacity=".1"
             stroke-width=".86602" />
@@ -4855,7 +4855,7 @@
             transform="translate(100.36 -808.36)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -4863,14 +4863,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path300" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path301" />
@@ -4881,7 +4881,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -4889,14 +4889,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path303" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path304" />
@@ -4906,7 +4906,7 @@
             transform="matrix(-1 0 0 1 530.64 -808.36)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -4914,14 +4914,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path306" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path307" />
@@ -4932,7 +4932,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -4940,14 +4940,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path309" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path310" />
@@ -4958,7 +4958,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -4966,14 +4966,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path312" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path313" />
@@ -4984,7 +4984,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5h131v-5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -4992,14 +4992,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path315" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path316" />
@@ -5009,7 +5009,7 @@
             transform="matrix(1 0 0 -1 100.36 889.36)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5017,14 +5017,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path318" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path319" />
@@ -5034,7 +5034,7 @@
             transform="rotate(180 265.32 444.68)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5042,14 +5042,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path321" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path322" />
@@ -5058,7 +5058,7 @@
             id="combo-focused"
             class="ColorScheme-Highlight"
             d="m369.05 94.755v36h48v-36z"
-            color="{{colors.primary.default.hex}}"
+            color="{{colors.surface_variant.default.hex}}"
             fill="{{colors.on_surface.default.hex}}"
             opacity=".1"
             stroke-width=".86603" />
@@ -5067,7 +5067,7 @@
             transform="translate(177.91 -736.1)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5075,14 +5075,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path324" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5094,7 +5094,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5102,14 +5102,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path327" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width=".70711"
@@ -5120,7 +5120,7 @@
             transform="matrix(-1 0 0 1 608.19 -736.1)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5128,14 +5128,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path330" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5147,7 +5147,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5155,14 +5155,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path333" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width=".70711"
@@ -5174,7 +5174,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5182,14 +5182,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path336" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width=".70711"
@@ -5201,7 +5201,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5h131v-5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5209,14 +5209,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path339" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width=".70711"
@@ -5227,7 +5227,7 @@
             transform="matrix(1 0 0 -1 177.91 961.62)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5235,14 +5235,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path342" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5253,7 +5253,7 @@
             transform="rotate(180 304.09 480.81)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5261,14 +5261,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path345" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5278,7 +5278,7 @@
             id="combo-normal"
             class="ColorScheme-Highlight"
             d="m292.05 94.755v36h48v-36z"
-            color="{{colors.primary.default.hex}}"
+            color="{{colors.surface_variant.default.hex}}"
             fill="{{colors.on_surface.default.hex}}"
             opacity=".1"
             stroke-width=".86603" />
@@ -5287,7 +5287,7 @@
             transform="translate(100.91 -736.1)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5295,14 +5295,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path348" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path349" />
@@ -5313,7 +5313,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5321,14 +5321,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path351" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path352" />
@@ -5338,7 +5338,7 @@
             transform="matrix(-1 0 0 1 531.19 -736.1)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5346,14 +5346,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path354" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path355" />
@@ -5364,7 +5364,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5372,14 +5372,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path357" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path358" />
@@ -5390,7 +5390,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5.0001h131v-5.0001z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5398,14 +5398,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path360" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path361" />
@@ -5416,7 +5416,7 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v5h131v-5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.118"
@@ -5424,14 +5424,14 @@
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 823.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path363" />
         <path
                 class="ColorScheme-Highlight"
                 d="m190.14 824.86v2h131v-2z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width=".70711"
                 id="path364" />
@@ -5441,7 +5441,7 @@
             transform="matrix(1 0 0 -1 100.91 961.62)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5449,14 +5449,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path366" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path367" />
@@ -5466,7 +5466,7 @@
             transform="rotate(180 265.59 480.81)">
         <path
                 d="m190.14 824.86c-2.77 0-5 2.23-5 5h5z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="{{colors.on_surface.default.hex}}"
                 opacity=".1"
                 stroke-width="1.25"
@@ -5474,14 +5474,14 @@
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 65c-3.324 0-6 2.676-6 6h2c0-2.216 1.784-4 4-4z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.5"
                 id="path369" />
         <path
                 transform="translate(81.14,758.86)"
                 d="m109 66c-2.77 0-5 2.23-5 5h2c0-1.662 1.338-3 3-3z"
-                color="{{colors.primary.default.hex}}"
+                color="{{colors.surface_variant.default.hex}}"
                 fill="none"
                 stroke-width="1.25"
                 id="path370" />
@@ -5739,7 +5739,7 @@
                 id="rect379" />
         <path
                 d="m1-80c-3.324 0-6 2.676-6 6h6z"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 style="paint-order:markers stroke fill"
                 id="path379" />
     </g>
@@ -5751,7 +5751,7 @@
                 y="-80"
                 width="26"
                 height="6"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 style="paint-order:markers stroke fill"
                 id="rect380" />
     </g>
@@ -5763,7 +5763,7 @@
                 y="-74"
                 width="26"
                 height="26"
-                fill="{{colors.primary.default.hex}}"
+                fill="{{colors.surface_variant.default.hex}}"
                 style="paint-order:markers stroke fill"
                 id="rect381" />
     </g>
@@ -6697,13 +6697,13 @@
     <path
             id="checkbox-checked-normal"
             d="m300.79 230.3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm4.5996 3.5898 1.4102 1.4102-8 8-4-4 1.4102-1.4102 2.5898 2.5898z"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             stroke-width="0"
             style="paint-order:stroke fill markers" />
     <path
             id="checkbox-tristate-normal"
             d="m375.06 230.09a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm-4 7h8v2h-8z"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             stroke-width="0"
             style="paint-order:stroke fill markers" />
     <path
@@ -6724,13 +6724,13 @@
     <path
             id="checkbox-checked-focused"
             d="m335.52 230.3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm4.5996 3.5898 1.4102 1.4102-8 8-4-4 1.4102-1.4102 2.5898 2.5898z"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             stroke-width="0"
             style="paint-order:stroke fill markers" />
     <path
             id="checkbox-tristate-focused"
             d="m413.08 230.09a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm-4 7h8v2h-8z"
-            fill="{{colors.primary.default.hex}}"
+            fill="{{colors.surface_variant.default.hex}}"
             stroke-width="0"
             style="paint-order:stroke fill markers" />
 </svg>
