@@ -241,12 +241,12 @@
       ],
       "syntax": {
         "attribute": {
-          "color": "{{colors.tertiary.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "boolean": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -291,7 +291,7 @@
           "font_weight": null,
         },
         "function": {
-          "color": "{{colors.primary.default.hex}}",
+          "color": "{{colors.on_surface.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -301,12 +301,12 @@
           "font_weight": null,
         },
         "keyword": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "label": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.on_surface.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -376,7 +376,7 @@
           "font_weight": null,
         },
         "punctuation.special": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.on_surface.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -431,7 +431,7 @@
           "font_weight": null,
         },
         "variable.special": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
