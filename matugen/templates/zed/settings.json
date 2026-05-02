@@ -173,7 +173,7 @@
       "hint": "{{colors.on_surface_variant.default.hex}}",
       "hint.background": "{{colors.surface_container_high.default.hex}}1a",
       "hint.border": "{{colors.surface_container_high.default.hex}}",
-      "ignored": "{{colors.outline.default.hex}}",
+      "ignored": "{{colors.on_surface_variant.default.hex | to_color | lighten: -20.0 | saturate: -20.0, "hsl"}}",
       "ignored.background": "{{colors.surface_dim.default.hex}}1a",
       "ignored.border": "{{colors.surface_container_high.default.hex}}",
       "info": "{{colors.primary.default.hex}}",
