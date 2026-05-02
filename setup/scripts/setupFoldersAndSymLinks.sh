@@ -4,6 +4,7 @@ mkdir -p $HOME/Pictures
 mkdir -p $HOME/Pictures/Screenshots
 mkdir -p $HOME/Videos
 mkdir -p $HOME/Videos/ScreenRecordings
+mkdir -p $HOME/.config/zed
 
 rm -rf ~/.config/hypr
 ln -sf $HOME/workspace/dotfiles/hypr $HOME/.config/
@@ -29,3 +30,5 @@ ln -sf $HOME/workspace/dotfiles/gitui $HOME/.config/
 ln -sf $HOME/workspace/dotfiles/zsh/zshrc $HOME/.zshrc
 
 ln -sf $HOME/workspace/dotfiles/zsh/varda.zsh-theme $HOME/.config/oh-my-zsh/themes/
+
+ln -sf $HOME/workspace/dotfiles/zed/keymap.json $HOME/.config/zed/
