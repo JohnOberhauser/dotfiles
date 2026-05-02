@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
   "autosave": "on_focus_change",
   "tabs": {
     "git_status": true,
