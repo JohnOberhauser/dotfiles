@@ -266,7 +266,7 @@
           "font_weight": null,
         },
         "constructor": {
-          "color": "{{colors.primary.default.hex}}",
+          "color": "{{colors.tertiary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -286,11 +286,16 @@
           "font_weight": 700,
         },
         "enum": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.tertiary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "function": {
+          "color": "{{colors.secondary.default.hex}}",
+          "font_style": null,
+          "font_weight": null,
+        },
+        "function.macro": {
           "color": "{{colors.on_surface.default.hex}}",
           "font_style": null,
           "font_weight": null,
@@ -306,6 +311,11 @@
           "font_weight": null,
         },
         "label": {
+          "color": "{{base16.base0e.default.hex}}",
+          "font_style": null,
+          "font_weight": null,
+        },
+        "lifetime": {
           "color": "{{colors.on_surface.default.hex}}",
           "font_style": null,
           "font_weight": null,
@@ -321,7 +331,7 @@
           "font_weight": null,
         },
         "namespace": {
-          "color": "{{colors.on_surface.default.hex}}",
+          "color": "{{base16.base0e.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -331,7 +341,7 @@
           "font_weight": null,
         },
         "operator": {
-          "color": "{{colors.on_surface.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -356,17 +366,17 @@
           "font_weight": null,
         },
         "punctuation": {
-          "color": "{{colors.on_surface.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "punctuation.bracket": {
-          "color": "{{colors.on_surface.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "punctuation.delimiter": {
-          "color": "{{colors.on_surface.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -421,11 +431,16 @@
           "font_weight": 600,
         },
         "type": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.primary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "variable": {
+          "color": "{{colors.on_surface.default.hex}}",
+          "font_style": null,
+          "font_weight": null,
+        },
+        "variable.parameter": {
           "color": "{{colors.on_surface.default.hex}}",
           "font_style": null,
           "font_weight": null,
@@ -436,7 +451,7 @@
           "font_weight": null,
         },
         "variant": {
-          "color": "{{base16.base0e.default.hex}}",
+          "color": "{{colors.tertiary.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
