@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "auto_update":false,
   "git": {
     "inline_blame": {
       "enabled": false
@@ -63,7 +64,7 @@
   },
   "base_keymap": "JetBrains",
   "ui_font_size": 14.0,
-  "buffer_font_size": 15,
+  "buffer_font_size": 16,
   "theme": {
     "mode": "dark",
     "light": "One Dark",
@@ -316,17 +317,17 @@
           "font_weight": null,
         },
         "label": {
-          "color": "{{base16.base08.default.hex}}",
+          "color": "{{base16.base0e.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "lifetime": {
-          "color": "{{base16.base08.default.hex}}",
+          "color": "{{base16.base0e.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
         "link_text": {
-          "color": "{{base16.base08.default.hex}}",
+          "color": "{{base16.base0e.default.hex}}",
           "font_style": "underline",
           "font_weight": null,
         },
@@ -366,7 +367,7 @@
           "font_weight": null,
         },
         "property": {
-          "color": "{{base16.base08.default.hex}}",
+          "color": "{{base16.base0e.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
@@ -386,7 +387,7 @@
           "font_weight": null,
         },
         "punctuation.list_marker": {
-          "color": "{{base16.base08.default.hex}}",
+          "color": "{{base16.base0e.default.hex}}",
           "font_style": null,
           "font_weight": null,
         },
