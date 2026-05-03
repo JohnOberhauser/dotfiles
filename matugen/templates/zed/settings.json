@@ -49,7 +49,7 @@
     "show_sign_in": false,
     "show_onboarding_banner": false,
     "show_project_items": false,
-    "show_branch_name": false,
+    "show_branch_name": true,
     "show_branch_status_icon": false,
   },
   "ui_font_family": "{{ okshell.font.primary }}",
