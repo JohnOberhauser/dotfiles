@@ -19,6 +19,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export EDITOR='nvim'
+export SUDO_EDITOR="nvim -u NONE"
 export PATH="/home/john/.mozbuild/git-cinnabar:$PATH"
 export PATH=~/.local/bin:$PATH
 export PATH=~/Android/Sdk/platform-tools:$PATH
@@ -31,8 +32,8 @@ alias update="sudo pacman -Syu && flatpak update && yay -Syu --devel"
 alias remove="sudo pacman -Rcns"
 alias uninstall="sudo pacman -Rcns"
 alias sshpi="ssh john@192.168.50.158"
-alias v=nvim
-alias sv="sudo nvim"
+alias n=nvim
+alias sn="sudoedit"
 alias glm="git pull origin main"
 alias gcam='sh -c '\''git add -A && git commit -m "$@"'\'' _'
 alias bird="rsync -a --info=progress2 /home/john/Pictures/camera /mnt/network/"
