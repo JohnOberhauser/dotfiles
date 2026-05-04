@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "format_on_save": "off",
+  "format_on_save": "on",
   "auto_update":false,
   "git": {
     "inline_blame": {
@@ -49,7 +49,7 @@
     "show_user_menu": false,
     "show_sign_in": false,
     "show_onboarding_banner": false,
-    "show_project_items": false,
+    "show_project_items": true,
     "show_branch_name": true,
     "show_branch_status_icon": false,
   },
