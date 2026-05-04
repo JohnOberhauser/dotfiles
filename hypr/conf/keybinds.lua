@@ -126,12 +126,13 @@ hl.bind("XF86AudioNext",        hl.dsp.exec_cmd("playerctl next"),              
 hl.bind("XF86AudioPrev",        hl.dsp.exec_cmd("playerctl previous"),           { locked = true })
 
 
----- OkShell menus ----
+---- OkShell ----
 
 hl.bind("print",                hl.dsp.exec_cmd("okshellctl menu screenshot"))
 hl.bind(mainMod .. " + space",  hl.dsp.exec_cmd("okshellctl menu app-launcher"))
 hl.bind(mainMod .. " + print",  hl.dsp.exec_cmd("okshellctl menu wallpaper"))
 hl.bind("escape", hl.dsp.exec_cmd("okshellctl menu close-all"), { non_consuming = true })
+hl.bind(mainMod .. " + B",  hl.dsp.exec_cmd("okshellctl bar toggle-all"))
 
 
 ---- Brightness ----
