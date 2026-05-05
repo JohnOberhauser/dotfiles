@@ -97,10 +97,12 @@ output_path = '~/workspace/dotfiles/cursor/build_cursor.sh'
 post_hook = '~/workspace/dotfiles/cursor/regen_cursor.sh'
 
 [templates.intellij_1]
+index = 1
 input_path = '~/.config/matugen/templates/intellij/Matugen.theme.json'
 output_path = '~/workspace/dotfiles/intellij/Matugen-Intellij-Theme/Matugen.theme.json'
 
 [templates.intellij_2]
+index = 2
 input_path = '~/.config/matugen/templates/intellij/Matugen_Scheme.xml'
 output_path = '~/workspace/dotfiles/intellij/Matugen-Intellij-Theme/Matugen_Scheme.xml'
 post_hook = '~/workspace/dotfiles/intellij/apply_theme.sh'
@@ -117,11 +119,6 @@ output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 [templates.kvantum_svg]
 input_path = '~/.config/matugen/templates/kvantum/kvantum-colors.svg'
 output_path = '~/.config/Kvantum/matugen/matugen.svg'
-
-[templates.steam]
-input_path = '~/.config/matugen/templates/steam/steam.css'
-output_path = '~/.var/app/io.github.Foldex.AdwSteamGtk/config/AdwSteamGtk/custom.css'
-post_hook =  'flatpak run io.github.Foldex.AdwSteamGtk -i'
 
 [templates.zed_settings]
 input_path = '~/.config/matugen/templates/zed/settings.json'
