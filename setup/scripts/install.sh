@@ -16,6 +16,7 @@ cliphist \
 cmake \
 cpio \
 dart-sass \
+eza \
 fastfetch \
 fbset \
 fd \

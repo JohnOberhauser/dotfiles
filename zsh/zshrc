@@ -24,9 +24,10 @@ export PATH="/home/john/.mozbuild/git-cinnabar:$PATH"
 export PATH=~/.local/bin:$PATH
 export PATH=~/Android/Sdk/platform-tools:$PATH
 
-alias ll='ls -alFh'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll='eza -al --icons=always'
+alias la='eza -ax --icons=always'
+alias ls='eza -x --icons=always'
+alias l='eza'
 alias install="sudo pacman -Syu"
 alias update="sudo pacman -Syu && flatpak update && yay -Syu --devel"
 alias remove="sudo pacman -Rcns"
@@ -128,11 +129,12 @@ gri() {
 # [st]="sticky directory"
 # [su]="set-user-ID"
 # [tw]="sticky and other-writable directory"
-LS_COLORS=$LS_COLORS:'di=1;37:'
-LS_COLORS=$LS_COLORS:'ln=4;37:'
-LS_COLORS=$LS_COLORS:'ow=1;37;41:'
-LS_COLORS=$LS_COLORS:'*.bak=00;31:'
-export LS_COLORS
+#
+# LS_COLORS=$LS_COLORS:'di=1;37:'
+# LS_COLORS=$LS_COLORS:'ln=4;37:'
+# LS_COLORS=$LS_COLORS:'ow=1;37;41:'
+# LS_COLORS=$LS_COLORS:'*.bak=00;31:'
+# export LS_COLORS
 
 # start yazi.  Makes it so when you quit yazi, you are in the same directory that you were in last
 function y() {
