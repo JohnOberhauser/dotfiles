@@ -6,6 +6,11 @@ local home = os.getenv("HOME")
 
 -- General
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("uwsm stop"))
+hl.bind(mainMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + F11", hl.dsp.window.fullscreen({ mode = 0 }))
+
+-- Apps
 hl.bind(mainMod .. " + return", hl.dsp.exec_cmd("uwsm app -- kitty --session fastfetch.session"))
 hl.bind(mainMod .. " + ALT + return", hl.dsp.exec_cmd("uwsm app -- kitty --session dashboard.session"))
 hl.bind(mainMod .. " + ALT + Y", hl.dsp.exec_cmd("uwsm app -- yazi-kitty.sh"))
@@ -14,13 +19,6 @@ hl.bind(mainMod .. " + ALT + F", hl.dsp.exec_cmd("uwsm app -- " .. home .. "/.lo
 hl.bind(mainMod .. " + ALT + I", hl.dsp.exec_cmd("uwsm app -- env VK_DRIVER_FILES=/dev/null zeditor"))
 hl.bind(mainMod .. " + ALT + A",
     hl.dsp.exec_cmd("uwsm app -- " .. home .. "/.local/share/JetBrains/Toolbox/apps/android-studio/bin/studio.sh"))
-hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("uwsm stop"))
-
--- Window state
-hl.bind(mainMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())       -- dwindle
-hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit")) -- dwindle
-hl.bind(mainMod .. " + F11", hl.dsp.window.fullscreen({ mode = 0 }))
 
 
 ---- Workspace navigation (r-1 / r+1 = relative incl. empty) ----
@@ -101,15 +99,17 @@ hl.bind(mainMod .. " + SHIFT + K", focusDir("u"))
 hl.bind(mainMod .. " + SHIFT + J", focusDir("d"))
 
 
----- Scrolling layout movement ----
+---- Layouts ----
 
-hl.bind(mainMod .. " + CTRL + mouse_down", hl.dsp.layout("move -col"))
-hl.bind(mainMod .. " + CTRL + mouse_up", hl.dsp.layout("move +col"))
+-- Scrolling
+hl.bind(mainMod .. " + SHIFT + mouse_down", hl.dsp.layout("move -col"))
+hl.bind(mainMod .. " + SHIFT + mouse_up", hl.dsp.layout("move +col"))
+
+-- Dwindle
+hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit"))
 
 
 ---- Groups ----
--- NOTE: confirm exact path for these on your hyprland version. Likely
--- hl.dsp.window.groups.*; some builds expose hl.dsp.window.group.* instead.
 
 hl.bind(mainMod .. " + G", hl.dsp.window.groups.toggle())
 hl.bind(mainMod .. " + Tab", hl.dsp.window.groups.change_active())
