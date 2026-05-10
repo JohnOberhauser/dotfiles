@@ -18,8 +18,8 @@ hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("uwsm stop"))
 
 -- Window state
 hl.bind(mainMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())         -- dwindle
-hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit"))   -- dwindle
+hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())       -- dwindle
+hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit")) -- dwindle
 hl.bind(mainMod .. " + F11", hl.dsp.window.fullscreen({ mode = 0 }))
 
 
@@ -99,6 +99,12 @@ hl.bind(mainMod .. " + SHIFT + H", focusDir("l"))
 hl.bind(mainMod .. " + SHIFT + L", focusDir("r"))
 hl.bind(mainMod .. " + SHIFT + K", focusDir("u"))
 hl.bind(mainMod .. " + SHIFT + J", focusDir("d"))
+
+
+---- Scrolling layout movement ----
+
+hl.bind(mainMod .. " + CTRL + mouse_down", hl.dsp.layout("move -col"))
+hl.bind(mainMod .. " + CTRL + mouse_up", hl.dsp.layout("move +col"))
 
 
 ---- Groups ----
