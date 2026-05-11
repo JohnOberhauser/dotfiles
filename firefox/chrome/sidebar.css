@@ -42,3 +42,12 @@ button {
     border-top-color: transparent !important;
     background-color: transparent !important;
 }
+
+.tab-background:is([selected]:not([multiselected])) {
+    background: var(--tab-selected-bgcolor) !important;
+    border-color: color-mix(
+        in srgb,
+        var(--fg-color) 5%,
+        transparent
+    ) !important;
+}
