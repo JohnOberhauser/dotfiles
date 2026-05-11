@@ -1,6 +1,5 @@
 require("conf.monitors")
 require("conf.keybinds")
-require("conf.windowRules")
 require("conf.theme")
 require("conf.font")
 require("conf.layerRules")
@@ -11,13 +10,13 @@ require("conf.layerRules")
 -------------------------------
 
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
-hl.env("XDG_SESSION_TYPE",    "wayland")
+hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 
-hl.env("GTK_USE_PORTAL", "1")        -- terminal file chooser
-hl.env("GDK_DEBUG",      "portals")  -- terminal file chooser
+hl.env("GTK_USE_PORTAL", "1")  -- terminal file chooser
+hl.env("GDK_DEBUG", "portals") -- terminal file chooser
 
-hl.env("QT_STYLE_OVERRIDE",  "kvantum")
+hl.env("QT_STYLE_OVERRIDE", "kvantum")
 
 
 -------------------
@@ -74,8 +73,7 @@ hl.config({
     },
 
     dwindle = {
-        pseudotile      = true,  -- toggled with mainMod + P
-        preserve_split  = true,
+        preserve_split = true,
     },
 
     xwayland = {
@@ -106,10 +104,10 @@ hl.config({
         float_switch_override_focus = 0,
         follow_mouse                = 2,
 
-        touchpad = {
+        touchpad                    = {
             scroll_factor = 0.2,
             drag_lock     = true,
-            ["tap-and-drag"] = true,  -- key has a hyphen, so use bracket syntax
+            tap_and_drag  = true,
         },
     },
 })
@@ -154,10 +152,10 @@ hl.config({
     },
 })
 
-hl.curve("myBezier",     { type = "bezier", points = { {0.05, 0.9}, {0.1, 1}  } })
-hl.curve("workspaceBez", { type = "bezier", points = { {0.61, 1},   {0.88, 1} } })
+hl.curve("myBezier", { type = "bezier", points = { { 0.05, 0.9 }, { 0.1, 1 } } })
+hl.curve("workspaceBez", { type = "bezier", points = { { 0.61, 1 }, { 0.88, 1 } } })
 
-hl.animation({ leaf = "windows",    enabled = true, speed = 7,  bezier = "myBezier" })
-hl.animation({ leaf = "border",     enabled = true, speed = 10, bezier = "default" })
-hl.animation({ leaf = "fade",       enabled = true, speed = 7,  bezier = "default" })
-hl.animation({ leaf = "workspaces", enabled = true, speed = 3,  bezier = "workspaceBez", style = "slidevert" })
+hl.animation({ leaf = "windows", enabled = true, speed = 7, bezier = "myBezier" })
+hl.animation({ leaf = "border", enabled = true, speed = 10, bezier = "default" })
+hl.animation({ leaf = "fade", enabled = true, speed = 7, bezier = "default" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 3, bezier = "workspaceBez", style = "slidevert" })

@@ -1,4 +1,4 @@
-require("utils")
+require("conf.utils")
 
 local mainMod = "SUPER"
 
@@ -61,24 +61,20 @@ hl.bind(mainMod .. " + CTRL + J", moveWindowNext)
 hl.bind(mainMod .. " + CTRL + K", moveWindowPrev)
 
 
----- Move window within / out of group ----
+---- Move window ----
 
-local function moveOrGroup(dir)
-    return hl.dsp.window.groups.move_window_or_group({ direction = dir })
-end
-
-hl.bind(mainMod .. " + ALT + kp_left", moveOrGroup("l"))
-hl.bind(mainMod .. " + ALT + kp_right", moveOrGroup("r"))
-hl.bind(mainMod .. " + ALT + kp_up", moveOrGroup("u"))
-hl.bind(mainMod .. " + ALT + kp_down", moveOrGroup("d"))
-hl.bind(mainMod .. " + ALT + left", moveOrGroup("l"))
-hl.bind(mainMod .. " + ALT + right", moveOrGroup("r"))
-hl.bind(mainMod .. " + ALT + up", moveOrGroup("u"))
-hl.bind(mainMod .. " + ALT + down", moveOrGroup("d"))
-hl.bind(mainMod .. " + ALT + H", moveOrGroup("l"))
-hl.bind(mainMod .. " + ALT + L", moveOrGroup("r"))
-hl.bind(mainMod .. " + ALT + K", moveOrGroup("u"))
-hl.bind(mainMod .. " + ALT + J", moveOrGroup("d"))
+hl.bind(mainMod .. " + ALT + kp_left", hl.dsp.window.move({ direction = "l" }))
+hl.bind(mainMod .. " + ALT + kp_right", hl.dsp.window.move({ direction = "r" }))
+hl.bind(mainMod .. " + ALT + kp_up", hl.dsp.window.move({ direction = "u" }))
+hl.bind(mainMod .. " + ALT + kp_down", hl.dsp.window.move({ direction = "d" }))
+hl.bind(mainMod .. " + ALT + left", hl.dsp.window.move({ direction = "l" }))
+hl.bind(mainMod .. " + ALT + right", hl.dsp.window.move({ direction = "r" }))
+hl.bind(mainMod .. " + ALT + up", hl.dsp.window.move({ direction = "u" }))
+hl.bind(mainMod .. " + ALT + down", hl.dsp.window.move({ direction = "d" }))
+hl.bind(mainMod .. " + ALT + H", hl.dsp.window.move({ direction = "l" }))
+hl.bind(mainMod .. " + ALT + L", hl.dsp.window.move({ direction = "r" }))
+hl.bind(mainMod .. " + ALT + K", hl.dsp.window.move({ direction = "u" }))
+hl.bind(mainMod .. " + ALT + J", hl.dsp.window.move({ direction = "d" }))
 
 
 ---- Move focus ----
@@ -109,13 +105,6 @@ hl.bind(mainMod .. " + SHIFT + mouse_up", hl.dsp.layout("move +col"))
 
 -- Dwindle
 hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit"))
-
-
----- Groups ----
-
-hl.bind(mainMod .. " + G", hl.dsp.window.groups.toggle())
-hl.bind(mainMod .. " + Tab", hl.dsp.window.groups.change_active())
-hl.bind(mainMod .. " + L", hl.dsp.window.groups.lock_active({ action = "toggle" }))
 
 
 ---- Mouse drag/resize ----
