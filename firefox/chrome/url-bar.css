@@ -8,7 +8,8 @@
     display: none;
 }
 
-#urlbar-label-box, #urlbar-search-mode-indicator {
+#urlbar-label-box,
+#urlbar-search-mode-indicator {
     display: none !important;
 }
 
@@ -39,6 +40,7 @@
 
 .urlbar-background {
     background: var(--bg-color) !important;
+    border-color: transparent !important;
 }
 
 #urlbar {

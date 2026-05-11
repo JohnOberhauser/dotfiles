@@ -37,3 +37,8 @@ button {
     color: var(--bg-color) !important;
     background-color: var(--bg-color) !important;
 }
+
+#sidebar-tools-and-extensions-splitter {
+    border-top-color: transparent !important;
+    background-color: transparent !important;
+}

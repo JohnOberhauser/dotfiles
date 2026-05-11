@@ -20,6 +20,28 @@ Here you can change the opacity level and the main color of the browser. Also th
     --panel-background: var(--bg-color) !important;
     --panel-color: var(--fg-color) !important;
     --focus-outline-color: var(--fg-color) !important;
+    --urlbarview-background-color-hover: var(--bg-color) !important;
+    --urlbarview-background-color-selected: color-mix(
+        in srgb,
+        var(--bg-color) 95%,
+        white
+    ) !important;
+    --urlbarview-text-color-selected: var(--fg-color) !important;
+    --urlbarview-text-color-action: var(--fg-color) !important;
+    --urlbarview-separator-color: var(--fg-color) !important;
+    --urlbar-box-background-color: var(--bg-color) !important;
+    --urlbar-box-background-color-focus: var(--bg-color) !important;
+    --urlbar-box-background-color-hover: var(--bg-color) !important;
+    --toolbar-field-border-color: transparent !important;
+    --toolbar-field-focus-border-color: transparent !important;
+    --toolbar-field-border-color: transparent !important;
+}
+
+.searchmode-switcher {
+    --button-background-color-active: var(--button-background-color);
+    --button-background-color-hover: var(--button-background-color);
+    --button-background-color-selected: var(--button-background-color);
+    --button-background-color: var(--urlbar-box-background-color);
 }
 
 /*
