@@ -11,7 +11,7 @@ Here you can change the opacity level and the main color of the browser. Also th
 :root {
     color: var(--fg-color) !important;
     background-color: var(--bg-color) !important;
-    --urlbar-width:40vw;
+    --urlbar-width: 40vw;
     --arrowpanel-background: var(--bg-color) !important;
     --arrowpanel-color: var(--fg-color) !important;
     --input-text-border-color: var(--fg-color) !important;
@@ -49,10 +49,35 @@ menupopup,
 }
 
 /* Right click popups */
+panel,
 menupopup {
-    --panel-background: var(--bg-color)!important;
+    --panel-background: var(--bg-color) !important;
     --panel-border-color: none !important;
     --panel-color: var(--fg-color) !important;
+    --panel-background-color: var(--bg-color) !important;
+    --background-color-canvas: var(--bg-color) !important;
+    --panel-color: var(--fg-color) !important;
+    --text-color: var(--fg-color) !important;
+    --panel-item-hover-bgcolor: color-mix(
+        in srgb,
+        var(--bg-color) 85%,
+        white
+    ) !important;
+    --panel-item-active-bgcolor: color-mix(
+        in srgb,
+        var(--bg-color) 75%,
+        white
+    ) !important;
+    --button-background-color-ghost-hover: color-mix(
+        in srgb,
+        var(--bg-color) 85%,
+        white
+    ) !important;
+    --button-background-color-ghost-active: color-mix(
+        in srgb,
+        var(--bg-color) 75%,
+        white
+    ) !important;
 }
 
 ::selection {
