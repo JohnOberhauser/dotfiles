@@ -1,3 +1,5 @@
+require("utils")
+
 local mainMod = "SUPER"
 
 ---- Apps / sessions ----
