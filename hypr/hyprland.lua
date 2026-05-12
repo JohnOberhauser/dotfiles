@@ -90,6 +90,10 @@ hl.config({
     render = {
         cm_sdr_eotf = 2,
     },
+
+    binds = {
+        scroll_event_delay = 0,
+    }
 })
 
 

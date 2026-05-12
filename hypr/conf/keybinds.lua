@@ -1,6 +1,23 @@
-require("conf.utils")
-
 local mainMod = "SUPER"
+
+local throttled = false
+
+local function throttled_dsp(dsp)
+    return function()
+        if throttled then return end
+        throttled = true
+        hl.dispatch(dsp)
+        hl.timer(
+            function()
+                throttled = false
+            end,
+            {
+                timeout = 200,
+                type = "oneshot",
+            }
+        )
+    end
+end
 
 ---- Apps / sessions ----
 
@@ -23,13 +40,13 @@ hl.bind(mainMod .. " + ALT + A",
     hl.dsp.exec_cmd("uwsm app -- " .. home .. "/.local/share/JetBrains/Toolbox/apps/android-studio/bin/studio.sh"))
 
 
----- Workspace navigation (r-1 / r+1 = relative incl. empty) ----
+---- Workspace navigation ----
 
 local prevWs = hl.dsp.focus({ workspace = "r-1" })
 local nextWs = hl.dsp.focus({ workspace = "r+1" })
 
-hl.bind(mainMod .. " + mouse_down", nextWs)
-hl.bind(mainMod .. " + mouse_up", prevWs)
+hl.bind(mainMod .. " + mouse_down", throttled_dsp(prevWs))
+hl.bind(mainMod .. " + mouse_up", throttled_dsp(nextWs))
 hl.bind(mainMod .. " + kp_down", nextWs)
 hl.bind(mainMod .. " + kp_up", prevWs)
 hl.bind(mainMod .. " + down", nextWs)
@@ -49,8 +66,8 @@ hl.bind("prior", prevWs)
 local moveWindowPrev = hl.dsp.window.move({ workspace = "r-1" })
 local moveWindowNext = hl.dsp.window.move({ workspace = "r+1" })
 
-hl.bind(mainMod .. " + CTRL + mouse_down", moveWindowPrev)
-hl.bind(mainMod .. " + CTRL + mouse_up", moveWindowNext)
+hl.bind(mainMod .. " + CTRL + mouse_down", throttled_dsp(moveWindowPrev))
+hl.bind(mainMod .. " + CTRL + mouse_up", throttled_dsp(moveWindowNext))
 hl.bind(mainMod .. " + CTRL + kp_down", moveWindowNext)
 hl.bind(mainMod .. " + CTRL + kp_up", moveWindowPrev)
 hl.bind(mainMod .. " + CTRL + down", moveWindowNext)
@@ -100,8 +117,8 @@ hl.bind(mainMod .. " + SHIFT + J", focusDir("d"))
 ---- Layouts ----
 
 -- Scrolling
-hl.bind(mainMod .. " + SHIFT + mouse_down", hl.dsp.layout("move -col"))
-hl.bind(mainMod .. " + SHIFT + mouse_up", hl.dsp.layout("move +col"))
+hl.bind(mainMod .. " + SHIFT + mouse_down", throttled_dsp(hl.dsp.layout("move -col")))
+hl.bind(mainMod .. " + SHIFT + mouse_up", throttled_dsp(hl.dsp.layout("move +col")))
 
 -- Dwindle
 hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit"))
