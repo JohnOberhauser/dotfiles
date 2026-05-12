@@ -52,14 +52,6 @@ output_path = '~/workspace/dotfiles/firefox/startpage/darkreader/settings.json'
 input_path = '~/.config/matugen/templates/firefox/user.js'
 output_path = '~/workspace/dotfiles/firefox/user.js'
 
-[templates.hyprland]
-input_path = '~/.config/matugen/templates/hyprland/theme.conf'
-output_path = '~/workspace/dotfiles/hypr/conf/theme.conf'
-
-[templates.hyprland_font]
-input_path = '~/.config/matugen/templates/hyprland/font.conf'
-output_path = '~/workspace/dotfiles/hypr/conf/font.conf'
-
 [templates.hyprland_lua]
 input_path = '~/.config/matugen/templates/hyprland/theme.lua'
 output_path = '~/workspace/dotfiles/hypr/conf/theme.lua'
