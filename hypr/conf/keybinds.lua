@@ -119,6 +119,8 @@ hl.bind(mainMod .. " + SHIFT + J", focusDir("d"))
 -- Scrolling
 hl.bind(mainMod .. " + SHIFT + mouse_down", throttled_dsp(hl.dsp.layout("move -col")))
 hl.bind(mainMod .. " + SHIFT + mouse_up", throttled_dsp(hl.dsp.layout("move +col")))
+hl.bind(mainMod .. " + ALT + mouse_down", hl.dsp.layout("move +30"))
+hl.bind(mainMod .. " + ALT + mouse_up", hl.dsp.layout("move -30"))
 
 -- Dwindle
 hl.bind(mainMod .. " + V", hl.dsp.layout("togglesplit"))
