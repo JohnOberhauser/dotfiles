@@ -60,6 +60,8 @@ hl.bind(mainMod .. " + K", prevWs)
 hl.bind("next", nextWs)
 hl.bind("prior", prevWs)
 
+hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special({ "special" }))
+
 
 ---- Move active window to next/prev workspace ----
 
