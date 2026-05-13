@@ -139,9 +139,19 @@ hl.gesture({
     action    = "workspace",
 })
 
+hl.gesture({
+    fingers   = 3,
+    direction = "horizontal",
+    action    = "scroll_move",
+})
+
 hl.config({
     gestures = {
         workspace_swipe_invert = false,
+        scrolling = {
+            move_snap_to_grid = false,
+            move_snap_cursor = false,
+        }
     },
 })
 
