@@ -3,6 +3,7 @@ require("conf.keybinds")
 require("conf.theme")
 require("conf.font")
 require("conf.layerRules")
+require("conf.windowRules")
 
 
 -------------------------------
