@@ -37,6 +37,11 @@ Here you can change the opacity level and the main color of the browser. Also th
     --toolbar-field-border-color: transparent !important;
     --toolbox-background-color: var(--bg-color) !important;
     --toolbox-background-color-inactive: var(--bg-color) !important;
+    --chrome-content-separator-color: color-mix(
+        in srgb,
+        var(--fg-color) 5%,
+        transparent
+    ) !important;
 }
 
 .searchmode-switcher {

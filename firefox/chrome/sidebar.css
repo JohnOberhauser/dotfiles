@@ -11,6 +11,10 @@ Sidebar
     box-shadow: none !important;
 }
 
+#sidebar-container {
+    background-color: var(--bg-color) !important;
+}
+
 #tabbrowser-tabbox {
     outline: none !important;
     box-shadow: none !important;
