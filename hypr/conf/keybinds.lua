@@ -45,8 +45,8 @@ hl.bind(mainMod .. " + ALT + A",
 local prevWs = hl.dsp.focus({ workspace = "r-1" })
 local nextWs = hl.dsp.focus({ workspace = "r+1" })
 
-hl.bind(mainMod .. " + mouse_down", throttled_dsp(prevWs))
-hl.bind(mainMod .. " + mouse_up", throttled_dsp(nextWs))
+hl.bind(mainMod .. " + mouse_down", throttled_dsp(nextWs))
+hl.bind(mainMod .. " + mouse_up", throttled_dsp(prevWs))
 hl.bind(mainMod .. " + kp_down", nextWs)
 hl.bind(mainMod .. " + kp_up", prevWs)
 hl.bind(mainMod .. " + down", nextWs)
