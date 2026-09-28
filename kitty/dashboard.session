@@ -1,8 +1,3 @@
-new_tab Music
-layout splits
-launch zsh -c "source ~/.zshrc; spotify_player; exec zsh"
-launch --location=hsplit --bias=10 zsh -c "source ~/.zshrc; cava; exec zsh"
-
 new_tab Signal
 launch zsh -c "source ~/.zshrc; gurk; exec zsh"
 

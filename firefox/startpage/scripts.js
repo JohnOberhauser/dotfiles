@@ -150,8 +150,8 @@ const bookmarks = [
       },
       {
         id: "ereuzztrzJbI0lqk",
-        label: "Spotify",
-        url: "https://open.spotify.com/",
+        label: "Music",
+        url: "https://music.youtube.com/",
       },
       {
         id: "R37Y4hMSIvTGhRmy",
