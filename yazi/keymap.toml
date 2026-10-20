@@ -7,8 +7,8 @@
 prepend_keymap = [
 	{ on = "y",         run = [ '''
 							shell 'for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list'
-							''', "yank"],                 	  desc = "Copy the selected files" },
-	{ on = "a",			run = ['''shell 'for path in "$@"; do aunpack "$path"; done' --confirm'''],	desc = "Extract compressed file" },
+							''', "yank"],                 	            desc = "Copy the selected files" },
+	{ on = "a",         run = "shell -- aunpack -e %s",                 desc = "Extract compressed file" },
 	{ on = "w", 		run = ['''
 							shell 'okshellctl set-wallpaper $@'
 							'''], 				 desc = "Show task manager" },
@@ -19,6 +19,7 @@ prepend_keymap = [
 	{ on = [ "e", "t" ], 		run = "shell 'yes | trash-empty'", 		    		desc = "Empty trash" },
 	{ on = [ "e", "j" ], 		run = "shell 'udiskie-umount -a --detach'", 		desc = "Eject USB" },
 	{ on = [ "e", "c" ], 		run = "shell 'rsync -a --info=progress2 --chmod=D755 /run/media/john/EOS_DIGITAL/DCIM/100EOSR6/ /mnt/ssd/camera/$(date +%F)/ && umount /run/media/john/EOS_DIGITAL'", 		desc = "Copy camera files" },
+	{ on = [ "e", "p" ],        run = "plugin photo-date",              desc = "Set photo datetime" },
 
 	# New files (used to be a)
 	{ on = [ "n", "f" ],		run = "create",        					desc = "Create a new file" },

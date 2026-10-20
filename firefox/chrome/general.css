@@ -118,3 +118,19 @@ menupopup {
 .toolbarbutton-1 {
     fill: var(--fg-color) !important;
 }
+
+/* Web page <select> dropdowns */
+#ContentSelectDropdown > menupopup {
+    background-color: var(--bg-color) !important;
+    color: var(--fg-color) !important;
+}
+
+#ContentSelectDropdown > menupopup > :is(menuitem, menucaption) {
+    background-color: transparent !important;
+    color: var(--fg-color) !important;
+}
+
+#ContentSelectDropdown > menupopup > menuitem[_moz-menuactive="true"] {
+    background-color: color-mix(in srgb, var(--bg-color) 85%, white) !important;
+    color: var(--fg-color) !important;
+}
