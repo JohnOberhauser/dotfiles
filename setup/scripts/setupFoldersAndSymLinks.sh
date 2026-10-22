@@ -33,5 +33,5 @@ ln -sf $HOME/workspace/dotfiles/zsh/varda.zsh-theme $HOME/.config/oh-my-zsh/them
 
 ln -sf $HOME/workspace/dotfiles/zed/keymap.json $HOME/.config/zed/
 
-ln -sf $Home/workspace/dotfiles/firefox/chrome_reload/autoconfig.js $Home/.local/share/firefox-nightly/defaults/pref/
-ln -sf $Home/workspace/dotfiles/firefox/chrome_reload/userchrome-reload.cfg $Home/.local/share/firefox-nightly/
+ln -sf $HOME/workspace/dotfiles/firefox/chrome_reload/autoconfig.js $HOME/.local/share/firefox-nightly/defaults/pref/
+ln -sf $HOME/workspace/dotfiles/firefox/chrome_reload/userchrome-reload.cfg $HOME/.local/share/firefox-nightly/
