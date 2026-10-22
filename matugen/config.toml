@@ -45,7 +45,7 @@ output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_warning.svg'
 [templates.firefox_start_page]
 input_path = '~/.config/matugen/templates/firefox/start_page_colors.css'
 output_path = '~/workspace/dotfiles/firefox/startpage/start_page_colors.css'
-post_hook = 'curl -X POST varda:10001/reload'
+post_hook = 'curl -X POST "$(uname -n):10001/reload"'
 
 [templates.firefox_fav_icon]
 input_path = '~/.config/matugen/templates/firefox/favicon.svg'
