@@ -1,11 +1,14 @@
-@import "colors.css";
-
-@-moz-document url("chrome://browser/content/webrtcIndicator.xhtml" ){
-  :root{
-    --indicator-background-color: var(--bg-color) !important;
-    --indicator-color: var(--fg-color) !important;
-    --indicator-stop-button-color: var(--fg-color) !important;
-    --indicator-stop-button-background-color: var(--primary-color) !important;
-    --indicator-stop-button-hover-background-color: var(--primary-color) !important;
-  }
+@-moz-document url("chrome://browser/content/webrtcIndicator.xhtml" )
+{
+    :root {
+        --indicator-background-color: var(--bg-color) !important;
+        --indicator-color: var(--fg-color) !important;
+        --indicator-stop-button-color: var(--fg-color) !important;
+        --indicator-stop-button-background-color: var(
+            --primary-color
+        ) !important;
+        --indicator-stop-button-hover-background-color: var(
+            --primary-color
+        ) !important;
+    }
 }

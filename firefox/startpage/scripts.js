@@ -226,3 +226,7 @@ const injectBookmarks = () => {
 };
 
 injectBookmarks();
+
+// helper for reload css when colors change
+const events = new EventSource("/events");
+events.addEventListener("css", () => location.reload());

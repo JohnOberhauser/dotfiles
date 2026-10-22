@@ -8,36 +8,44 @@ output_path = '~/.config/kitty/themes/Matugen.conf'
 post_hook = "kitty +kitten themes --reload-in=all Matugen"
 
 [templates.firefox_colors]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/colors.css'
 output_path = '~/workspace/dotfiles/firefox/chrome/colors.css'
 
 [templates.firefox_darkreader_svg]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/darkreader.svg'
 output_path = '~/workspace/dotfiles/firefox/chrome/darkreader.svg'
 
 [templates.firefox_passwords_svg]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/passwords.svg'
 output_path = '~/workspace/dotfiles/firefox/chrome/passwords.svg'
 
 [templates.firefox_protonvpn_svg]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/protonvpn.svg'
 output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn.svg'
 
 [templates.firefox_protonvpn_protected_svg]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/protonvpn_protected.svg'
 output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_protected.svg'
 
 [templates.firefox_protonvpn_unprotected_svg]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/protonvpn_unprotected.svg'
 output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_unprotected.svg'
 
 [templates.firefox_protonvpn_warning_svg]
+index = 1
 input_path = '~/.config/matugen/templates/firefox/protonvpn_warning.svg'
 output_path = '~/workspace/dotfiles/firefox/chrome/protonvpn_warning.svg'
 
 [templates.firefox_start_page]
 input_path = '~/.config/matugen/templates/firefox/start_page_colors.css'
 output_path = '~/workspace/dotfiles/firefox/startpage/start_page_colors.css'
+post_hook = 'curl -X POST varda:10001/reload'
 
 [templates.firefox_fav_icon]
 input_path = '~/.config/matugen/templates/firefox/favicon.svg'
@@ -49,8 +57,10 @@ input_path = '~/.config/matugen/templates/firefox/darkreader_settings_template.j
 output_path = '~/workspace/dotfiles/firefox/startpage/darkreader/settings.json'
 
 [templates.firefox_user_js]
+index = 2
 input_path = '~/.config/matugen/templates/firefox/user.js'
 output_path = '~/workspace/dotfiles/firefox/user.js'
+post_hook = '~/workspace/dotfiles/firefox/chrome_reload/reload.sh'
 
 [templates.hyprland_lua]
 input_path = '~/.config/matugen/templates/hyprland/theme.lua'
