@@ -1,0 +1,71 @@
+/* Web page <select> dropdowns */
+#ContentSelectDropdown > menupopup {
+    background-color: var(--bg-color) !important;
+    color: var(--fg-color) !important;
+}
+
+#ContentSelectDropdown > menupopup > :is(menuitem, menucaption) {
+    background-color: transparent !important;
+    color: var(--fg-color) !important;
+}
+
+#ContentSelectDropdown > menupopup > menuitem[_moz-menuactive="true"] {
+    background-color: color-mix(in srgb, var(--bg-color) 85%, white) !important;
+    color: var(--fg-color) !important;
+}
+
+/* On-page input autocomplete / datalist / login dropdowns */
+#PopupAutoComplete {
+    --panel-background: var(--bg-color) !important;
+    --panel-color: var(--fg-color) !important;
+    --panel-border-color: transparent !important;
+    --panel-separator-color: color-mix(
+        in srgb,
+        var(--fg-color) 10%,
+        transparent
+    ) !important;
+}
+
+#PopupAutoComplete,
+#PopupAutoComplete > richlistbox {
+    background-color: var(--bg-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+}
+
+#PopupAutoComplete > richlistbox > richlistitem {
+    background-color: transparent !important;
+    color: var(--fg-color) !important;
+}
+
+/* Rows are drawn inside <autocomplete-row-item>'s shadow DOM, which only
+   reads these variables for hover/active colors, text, and icons */
+#PopupAutoComplete autocomplete-row-item {
+    --button-background-color-hover: color-mix(
+        in srgb,
+        var(--bg-color) 85%,
+        white
+    ) !important;
+    --button-background-color-active: color-mix(
+        in srgb,
+        var(--bg-color) 75%,
+        white
+    ) !important;
+    --button-text-color: var(--fg-color) !important;
+    --button-text-color-hover: var(--fg-color) !important;
+    --button-text-color-active: var(--fg-color) !important;
+    --button-icon-fill: var(--fg-color) !important;
+    --text-color-deemphasized: color-mix(
+        in srgb,
+        var(--fg-color) 70%,
+        transparent
+    ) !important;
+}
+
+/* Fallback for any older-style rows that don't use autocomplete-row-item */
+#PopupAutoComplete
+    > richlistbox
+    > richlistitem:not(.autocomplete-row-item)[selected] {
+    background-color: color-mix(in srgb, var(--bg-color) 85%, white) !important;
+    color: var(--fg-color) !important;
+}

@@ -490,7 +490,8 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="{{colors.surface_container_highest.default.hex_stripped}}" />
+        <option name="FOREGROUND" value="{{base16.base03.default.hex_stripped}}" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -513,7 +514,8 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="{{colors.surface_container_highest.default.hex_stripped}}" />
+        <option name="FOREGROUND" value="{{base16.base03.default.hex_stripped}}" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -578,7 +580,8 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="{{colors.surface_container_highest.default.hex_stripped}}" />
+        <option name="FOREGROUND" value="{{base16.base03.default.hex_stripped}}" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />

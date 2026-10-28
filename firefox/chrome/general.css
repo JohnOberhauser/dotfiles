@@ -117,18 +117,31 @@ menupopup {
     fill: var(--fg-color) !important;
 }
 
-/* Web page <select> dropdowns */
-#ContentSelectDropdown > menupopup {
-    background-color: var(--bg-color) !important;
+/* Chrome menus: context menus, menubar menus, bookmark menus, etc. */
+panel,
+menupopup {
+    --panel-text-color: var(--fg-color) !important;
+    --panel-separator-color: color-mix(
+        in srgb,
+        var(--fg-color) 10%,
+        transparent
+    ) !important;
+}
+
+menupopup :is(menu, menuitem, menucaption) {
     color: var(--fg-color) !important;
 }
 
-#ContentSelectDropdown > menupopup > :is(menuitem, menucaption) {
-    background-color: transparent !important;
-    color: var(--fg-color) !important;
-}
-
-#ContentSelectDropdown > menupopup > menuitem[_moz-menuactive="true"] {
+menupopup :is(menu, menuitem)[_moz-menuactive]:not([disabled]) {
     background-color: color-mix(in srgb, var(--bg-color) 85%, white) !important;
     color: var(--fg-color) !important;
+}
+
+/* Disabled items: dimmed text, hover shows a fainter highlight */
+menupopup :is(menu, menuitem)[disabled] {
+    color: color-mix(in srgb, var(--fg-color) 45%, transparent) !important;
+}
+
+menupopup :is(menu, menuitem)[_moz-menuactive][disabled] {
+    background-color: color-mix(in srgb, var(--bg-color) 92%, white) !important;
 }
