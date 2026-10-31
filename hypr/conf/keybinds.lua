@@ -34,7 +34,10 @@ hl.bind(mainMod .. " + return", hl.dsp.exec_cmd("uwsm app -- kitty --session fas
 hl.bind(mainMod .. " + ALT + return", hl.dsp.exec_cmd("uwsm app -- kitty --session dashboard.session"))
 hl.bind(mainMod .. " + ALT + Y", hl.dsp.exec_cmd("uwsm app -- yazi-kitty.sh"))
 hl.bind(mainMod .. " + ALT + B", hl.dsp.exec_cmd("uwsm app -- kitty -e btop"))
-hl.bind(mainMod .. " + ALT + F", hl.dsp.exec_cmd("uwsm app -- " .. home .. "/.local/share/firefox-nightly/firefox"))
+hl.bind(mainMod .. " + ALT + F", hl.dsp.exec_cmd("uwsm app -- firefox-nightly.desktop"))
+hl.bind(mainMod .. " + ALT + G", hl.dsp.exec_cmd(
+    [[uwsm app -- "$HOME/.local/share/firefox-nightly/firefox" --profile "$HOME/.config/mozilla/firefox/work-profile"]]
+))
 hl.bind(mainMod .. " + ALT + I", hl.dsp.exec_cmd("uwsm app -- env VK_DRIVER_FILES=/dev/null zeditor"))
 hl.bind(mainMod .. " + ALT + A",
     hl.dsp.exec_cmd("uwsm app -- " .. home .. "/.local/share/JetBrains/Toolbox/apps/android-studio/bin/studio.sh"))
