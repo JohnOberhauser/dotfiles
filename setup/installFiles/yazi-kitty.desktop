@@ -2,4 +2,4 @@
 Name=Yazi Kitty
 Exec=yazi-kitty.sh %u
 Type=Application
-Icon=yazi
+Icon=system-file-manager

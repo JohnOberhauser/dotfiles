@@ -17,7 +17,7 @@ prepend_keymap = [
 
 	# Everything
 	{ on = [ "e", "t" ], 		run = "shell 'yes | trash-empty'", 		    		desc = "Empty trash" },
-	{ on = [ "e", "j" ], 		run = "shell 'udiskie-umount -a --detach'", 		desc = "Eject USB" },
+	{ on = [ "e", "j" ], 		run = "plugin eject", 		            desc = "Eject USB" },
 	{ on = [ "e", "c" ], 		run = "shell 'rsync -a --info=progress2 --chmod=D755 /run/media/john/EOS_DIGITAL/DCIM/100EOSR6/ /mnt/ssd/camera/$(date +%F)/ && umount /run/media/john/EOS_DIGITAL'", 		desc = "Copy camera files" },
 	{ on = [ "e", "p" ],        run = "plugin photo-date",              desc = "Set photo datetime" },
 	{ on = [ "e", "r" ],        run = "plugin rotate 90",               desc = "Rotate image 90° clockwise" },
