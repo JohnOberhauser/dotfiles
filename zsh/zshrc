@@ -43,7 +43,7 @@ alias timezone='sudo timedatectl set-timezone "$(curl --fail https://ipapi.co/ti
 alias cd=z
 alias spt=spotify_player
 alias windows='sudo mount /dev/sdb3 /mnt/windows'
-alisa pf=/home/john/Documents/scripts/enablePortForwarding.sh
+alias pf=/home/john/Documents/scripts/enablePortForwarding.sh
 
 # firefox alias
 alias tryf='./mach try --preset android-fenix'
