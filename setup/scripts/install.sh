@@ -84,7 +84,6 @@ snap-pac \
 socat \
 sox \
 spotify-player \
-tela-circle-icon-theme-standard \
 trash-cli \
 ttf-hannom \
 ttf-jetbrains-mono-nerd \

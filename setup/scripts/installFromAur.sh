@@ -1,2 +1,3 @@
-yay -Syu jetbrains-toolbox \
+yay -Syu candy-icons-git \
+jetbrains-toolbox \
 opentabletdriver
